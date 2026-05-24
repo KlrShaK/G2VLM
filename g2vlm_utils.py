@@ -98,7 +98,7 @@ def load_model_and_tokenizer(args):
     tokenizer = Qwen2Tokenizer.from_pretrained(args.model_path)
     tokenizer, new_token_ids, _ = add_special_tokens(tokenizer)
 
-    vit_image_transform = QwenVL2ImageTransform(768, 768, 14)
+    vit_image_transform = QwenVL2ImageTransform(768, 768, 14, model_path=args.model_path)
     dino_transform = DinoImageNormalizeTransform(target_size=518)
 
     model_state_dict_path = os.path.join(args.model_path, "model.safetensors")

@@ -157,8 +157,9 @@ class QwenVL2ImageTransform:
         max_pixels=14*14*9*1024,
         image_mean=OPENAI_CLIP_MEAN, 
         image_std=OPENAI_CLIP_STD,
+        model_path='InternRobotics/G2VLM-2B-MoT',
     ):
-        self.processor = Qwen2VLImageProcessor.from_pretrained('InternRobotics/G2VLM-2B-MoT')
+        self.processor = Qwen2VLImageProcessor.from_pretrained(model_path)
         self.img_h = image_size_h
         self.img_w = image_size_w
         self.stride = image_stride
