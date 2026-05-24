@@ -102,7 +102,7 @@ def load_model_and_tokenizer(args):
     dino_transform = DinoImageNormalizeTransform(target_size=518)
 
     model_state_dict_path = os.path.join(args.model_path, "model.safetensors")
-    model_state_dict = load_file(model_state_dict_path, device="cpu")
+    model_state_dict = load_file(model_state_dict_path, device="cuda")
     msg = model.load_state_dict(model_state_dict, strict=False)
     print(msg)
     del model_state_dict

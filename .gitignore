@@ -65,3 +65,5 @@ logs/
 *.pt
 
 *.out
+/models/G2VLM-2B-MoT/cache/*
+/models/G2VLM-2B-MoT/model.safetensors
