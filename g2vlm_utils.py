@@ -110,8 +110,8 @@ def load_model_and_tokenizer(args):
 
     return model, tokenizer, new_token_ids , vit_image_transform, dino_transform
 
-def build_transform(pixel=224):
-    image_transform = QwenVL2ImageTransform(pixel, pixel, 14)
+def build_transform(pixel=224, model_path='InternRobotics/G2VLM-2B-MoT'):
+    image_transform = QwenVL2ImageTransform(pixel, pixel, 14, model_path=model_path)
 
     return image_transform
 

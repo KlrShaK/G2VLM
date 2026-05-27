@@ -16,7 +16,7 @@ if __name__=='__main__':
     enable_template = True
 
     model, tokenizer, new_token_ids , vit_image_transform, dino_transform = load_model_and_tokenizer(args)
-    image_transform = build_transform(pixel=768)
+    image_transform = build_transform(pixel=768, model_path=args.model_path)
 
     total_params = sum(p.numel() for p in model.parameters()) / 1e9
     print(f'[test] total_params: {total_params}B')
