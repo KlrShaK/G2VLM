@@ -3,9 +3,10 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=6G
 #SBATCH --time=1:00:00
-#SBATCH --output=/cluster/work/igp_psr/spanwar/G2VLM/logs/%j.out
+#SBATCH --output=/cluster/work/igp_psr/spanwar/G2VLM/logs/run_recon_%j.out
 
-REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+REPO_DIR="/cluster/work/igp_psr/spanwar/G2VLM"
+mv "$REPO_DIR/logs/run_recon_${SLURM_JOB_ID}.out" "$REPO_DIR/logs/run_recon_$(date +%d%m-%H%M%S)_${SLURM_JOB_ID}.out"
 
 source /cluster/work/igp_psr/spanwar/envs/g2vlm_env/bin/activate
 
