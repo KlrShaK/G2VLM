@@ -1,0 +1,2506 @@
+{
+  "metadata": {
+    "model_path": "/cluster/work/igp_psr/spanwar/G2VLM/models/G2VLM-2B-MoT",
+    "benchmark": "vsi",
+    "subset": "/cluster/work/igp_psr/spanwar/G2VLM/eval_benchmarks/vsi_random200.json",
+    "num_frames": 32,
+    "pixel": 768,
+    "max_length": 32
+  },
+  "results": [
+    {
+      "id": 2720,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: ceiling light, bed, door, basket?",
+      "options": [
+        "A. door, basket, ceiling light, bed",
+        "B. ceiling light, bed, door, basket",
+        "C. door, basket, bed, ceiling light",
+        "D. ceiling light, door, bed, basket"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer occupies, the room size of the new observer."
+    },
+    {
+      "id": 3194,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (door, lamp, pillow, nightstand) is the closest to the radiator?",
+      "options": [
+        "A. door",
+        "B. lamp",
+        "C. pillow",
+        "D. nightstand"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new new new new new observer. The pillow (Object2) is in front of the new observer. The pillow (Object3) is in"
+    },
+    {
+      "id": 4996,
+      "benchmark": "vsi",
+      "question_type": "route_planning",
+      "question": "You are a robot beginning at the hallway entrance and facing the door. You want to navigate to the refrigerator. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. Go forward until the trash can 2. [please fill in]. 3. Go forward until the refrigerator. You have reached the final destination.",
+      "options": [
+        "A. Turn Back",
+        "B. Turn Left",
+        "C. Turn Right"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new new new new new new observer."
+    },
+    {
+      "id": 4666,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the printer and the monitor (in meters)?",
+      "options": null,
+      "ground_truth": "0.5",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer stands in relation to pens (Object3). It may seem closer. The printer (Object2"
+    },
+    {
+      "id": 3924,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: keyboard, door, monitor, telephone?",
+      "options": [
+        "A. keyboard, door, monitor, telephone",
+        "B. door, telephone, monitor, keyboard",
+        "C. monitor, keyboard, telephone, door",
+        "D. telephone, monitor, door, keyboard"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "From the new new new new new observer."
+    },
+    {
+      "id": 3917,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: keyboard, window, telephone, door?",
+      "options": [
+        "A. telephone, door, keyboard, window",
+        "B. window, telephone, door, keyboard",
+        "C. keyboard, window, telephone, door",
+        "D. telephone, door, window, keyboard"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "From the new new new new new observer."
+    },
+    {
+      "id": 4226,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: plant, pillow, window, microwave?",
+      "options": [
+        "A. pillow, plant, window, microwave",
+        "B. plant, pillow, window, microwave",
+        "C. window, microwave, pillow, plant",
+        "D. microwave, window, pillow, plant"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new observer area,  The plant (Object2) is in the new new new new new new new new new"
+    },
+    {
+      "id": 3933,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: keyboard, door, refrigerator, monitor?",
+      "options": [
+        "A. refrigerator, monitor, door, keyboard",
+        "B. monitor, keyboard, refrigerator, door",
+        "C. refrigerator, door, keyboard, monitor",
+        "D. keyboard, door, refrigerator, monitor"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new new observer."
+    },
+    {
+      "id": 1089,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_hard",
+      "question": "If I am standing by the toilet and facing the bathtub, is the washer to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "options": [
+        "A. front-left",
+        "B. back-right",
+        "C. front-right",
+        "D. back-left"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer."
+    },
+    {
+      "id": 1202,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the stool and facing the sofa, is the stove to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. back",
+        "B. left",
+        "C. right"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "the white rectangular 373"
+    },
+    {
+      "id": 631,
+      "benchmark": "vsi",
+      "question_type": "room_size_estimation",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "options": null,
+      "ground_truth": "30.8",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new observer stands in relation to smoke detector (Object3). It could seem closer. The smoke detector (Object2"
+    },
+    {
+      "id": 699,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the table and the sofa (in meters)?",
+      "options": null,
+      "ground_truth": "1.4",
+      "mc_answer": null,
+      "prediction": "In the new observer."
+    },
+    {
+      "id": 4336,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the sofa and facing the lamp, is the tv to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. right",
+        "B. left",
+        "C. back"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer occupies, there are in front of the new observer."
+    },
+    {
+      "id": 2691,
+      "benchmark": "vsi",
+      "question_type": "room_size_estimation",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "options": null,
+      "ground_truth": "6.2",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new observer stands to face exhaust fan (Object1), it\u2019s evident to the right and above relative to exhaust fan ("
+    },
+    {
+      "id": 1142,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the washer and facing the refrigerator, is the sofa to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. left",
+        "B. back",
+        "C. right"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new observer point)  The sofa (Object2) is in front of the new observer."
+    },
+    {
+      "id": 1855,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_hard",
+      "question": "If I am standing by the refrigerator and facing the heater, is the door to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "options": [
+        "A. front-left",
+        "B. front-right",
+        "C. back-right",
+        "D. back-left"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer occupies placed toward heater (Object1), facing heater (Object1), kitchen outlet (Object2) is found to the"
+    },
+    {
+      "id": 987,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_hard",
+      "question": "If I am standing by the table and facing the bed, is the toilet to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "options": [
+        "A. back-left",
+        "B. back-right",
+        "C. front-left",
+        "D. front-right"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer occupies placed  and facing 2), the new observer stands to be to the right and  relative to face 3"
+    },
+    {
+      "id": 3016,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (door, table, chair, backpack) is the closest to the tv?",
+      "options": [
+        "A. door",
+        "B. table",
+        "C. chair",
+        "D. backpack"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new new new new observer occupies the new observer."
+    },
+    {
+      "id": 3716,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_easy",
+      "question": "If I am standing by the bed and facing the chair, is the mirror to the left or the right of the chair?",
+      "options": [
+        "A. right",
+        "B. left"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new point at mirror (Object0), facing chair (Object1), I found to the right and  and above relative to chair (Object3"
+    },
+    {
+      "id": 4663,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the door and the window (in meters)?",
+      "options": null,
+      "ground_truth": "3.5",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer stands in front. The new observer (Object2) is in the new observer. The window"
+    },
+    {
+      "id": 1169,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the stove and facing the table, is the tv to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. right",
+        "B. back",
+        "C. left"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "In the new observer."
+    },
+    {
+      "id": 4609,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the chair and the bed (in meters)?",
+      "options": null,
+      "ground_truth": "0.9",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer stands in relation to bed (Object3). It could be closer. The chair (Object2"
+    },
+    {
+      "id": 1875,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_hard",
+      "question": "If I am standing by the toilet and facing the basket, is the tv to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "options": [
+        "A. front-left",
+        "B. back-left",
+        "C. back-right",
+        "D. front-right"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer."
+    },
+    {
+      "id": 1265,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_easy",
+      "question": "If I am standing by the bed and facing the chair, is the table to the left or the right of the chair?",
+      "options": [
+        "A. left",
+        "B. right"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new point at chair (Object0), the new observer stands to be to the right and  from chair (Object3). It might seem farther"
+    },
+    {
+      "id": 3610,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_hard",
+      "question": "If I am standing by the towel and facing the door, is the trash bin to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "options": [
+        "A. front-left",
+        "B. back-left",
+        "C. back-right",
+        "D. front-right"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new observer occupies the new new new observer."
+    },
+    {
+      "id": 4580,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many table(s) are in this room?",
+      "options": null,
+      "ground_truth": "3",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new new new new new new new observer stands to table (Object3). It may be described as"
+    },
+    {
+      "id": 3774,
+      "benchmark": "vsi",
+      "question_type": "room_size_estimation",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "options": null,
+      "ground_truth": "12.8",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new observer stands in front, objects (Object2) stands to the right and above with respect to shoes (Object3"
+    },
+    {
+      "id": 294,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the chair, measured in centimeters?",
+      "options": null,
+      "ground_truth": "87",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new observer."
+    },
+    {
+      "id": 3311,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the window, measured in centimeters?",
+      "options": null,
+      "ground_truth": "231",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer stands to windowsill (Object1), the new observer stands to the right and above from windows"
+    },
+    {
+      "id": 1301,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_easy",
+      "question": "If I am standing by the table and facing the refrigerator, is the washer to the left or the right of the refrigerator?",
+      "options": [
+        "A. right",
+        "B. left"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new point)  The heater (Object2) is in front of the new observer. The kitchen (Object3)"
+    },
+    {
+      "id": 2,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many table(s) are in this room?",
+      "options": null,
+      "ground_truth": "2",
+      "mc_answer": null,
+      "prediction": "the smoke detector (Object3) as to the new  The  The  the new observer. The  the new observer. The  the new observer"
+    },
+    {
+      "id": 158,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many chair(s) are in this room?",
+      "options": null,
+      "ground_truth": "6",
+      "mc_answer": null,
+      "prediction": "the white rectangular 3"
+    },
+    {
+      "id": 1904,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_hard",
+      "question": "If I am standing by the table and facing the bed, is the ceiling light to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "options": [
+        "A. back-right",
+        "B. front-right",
+        "C. back-left",
+        "D. front-left"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new new observer\u2019s new new new observer occupies, the new observer stands to the right and above relative to not observer."
+    },
+    {
+      "id": 4956,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the table and the chair (in meters)?",
+      "options": null,
+      "ground_truth": "1.0",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new point) as to face chair (Object1), it see  and it the new observer. The"
+    },
+    {
+      "id": 4642,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the trash bin and the tv (in meters)?",
+      "options": null,
+      "ground_truth": "3.0",
+      "mc_answer": null,
+      "prediction": "From the new standpoint at trash can (Object1), facing facing office chair (Object1), trash can (Object2) is found to the right and"
+    },
+    {
+      "id": 952,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the stool and the tv (in meters)?",
+      "options": null,
+      "ground_truth": "3.2",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer point) as to the right and above from tv (Object3). It could seem closer."
+    },
+    {
+      "id": 354,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the table, measured in centimeters?",
+      "options": null,
+      "ground_truth": "190",
+      "mc_answer": null,
+      "prediction": "In the new new new new new new new observer. The smoke detector (Object2) and 3) are in the new new new new new new"
+    },
+    {
+      "id": 2342,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the table, measured in centimeters?",
+      "options": null,
+      "ground_truth": "148",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer stands in relation to not observer."
+    },
+    {
+      "id": 4333,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the fan and facing the door, is the table to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. left",
+        "B. right",
+        "C. back"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer occupies the new observer."
+    },
+    {
+      "id": 2847,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: monitor, ceiling light, plant, laptop?",
+      "options": [
+        "A. monitor, ceiling light, plant, laptop",
+        "B. laptop, plant, monitor, ceiling light",
+        "C. ceiling light, laptop, monitor, plant",
+        "D. ceiling light, monitor, plant, laptop"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new new new new observer occupies the new observer, the room appears to the right and above relative to heater (Object3). It"
+    },
+    {
+      "id": 456,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the stove, measured in centimeters?",
+      "options": null,
+      "ground_truth": "67",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer point) as  The stove (Object2) is in front of the new observer. The"
+    },
+    {
+      "id": 4971,
+      "benchmark": "vsi",
+      "question_type": "route_planning",
+      "question": "You are a robot beginning at the door and facing the washer. You want to navigate to the bathtub. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. Go forward until the washer 2. [please fill in] 3. Go forward until the bathtub. You have reached the final destination.",
+      "options": [
+        "A. Turn Left",
+        "B. Turn Back",
+        "C. Turn Right"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new new observer\u2019s new new new observer occupies the new observer occupies the new observer."
+    },
+    {
+      "id": 1082,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_hard",
+      "question": "If I am standing by the sofa and facing the chair, is the tv to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "options": [
+        "A. back-left",
+        "B. front-left",
+        "C. front-right",
+        "D. back-right"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer."
+    },
+    {
+      "id": 71,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many chair(s) are in this room?",
+      "options": null,
+      "ground_truth": "4",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new point) is found to face chair (Object1), it is found to the right and above relative to"
+    },
+    {
+      "id": 4804,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the door and the radiator (in meters)?",
+      "options": null,
+      "ground_truth": "2.3",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer occupies fire alarm (Object0), facing 2) is found to the right and above relative"
+    },
+    {
+      "id": 4952,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the chair and the bed (in meters)?",
+      "options": null,
+      "ground_truth": "1.0",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new point) as to face bed (Object1), it see  and it the new observer. The"
+    },
+    {
+      "id": 1506,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the power strip and facing the telephone, is the door to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. back",
+        "B. right",
+        "C. left"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new observer\u2019s new new observer occupies the new observer occupies the new observer."
+    },
+    {
+      "id": 3090,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (chair, trash bin, window, backpack) is the closest to the keyboard?",
+      "options": [
+        "A. chair",
+        "B. trash bin",
+        "C. window",
+        "D. backpack"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer occupies the new observer."
+    },
+    {
+      "id": 4903,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the trash bin and the refrigerator (in meters)?",
+      "options": null,
+      "ground_truth": "1.4",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new point) as to face refrigerator (Object1), trash can (Object2) is found to the"
+    },
+    {
+      "id": 569,
+      "benchmark": "vsi",
+      "question_type": "room_size_estimation",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "options": null,
+      "ground_truth": "13.1",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new point) are in front of the new observer."
+    },
+    {
+      "id": 4466,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many window(s) are in this room?",
+      "options": null,
+      "ground_truth": "2",
+      "mc_answer": null,
+      "prediction": "From the new standpoint at window (Object0), with vision: The window (Object2) is found to the right and above relative to window (Object"
+    },
+    {
+      "id": 3871,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: closet, backpack, refrigerator, table?",
+      "options": [
+        "A. table, closet, backpack, refrigerator",
+        "B. backpack, refrigerator, table, closet",
+        "C. table, backpack, refrigerator, closet",
+        "D. closet, backpack, refrigerator, table"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new new new new new observer\u2019s new observer occupies the new observer occupies the new observer, the new observer stands to the right and above the new"
+    },
+    {
+      "id": 3890,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: lamp, chair, tv, monitor?",
+      "options": [
+        "A. monitor, chair, tv, lamp",
+        "B. monitor, lamp, tv, chair",
+        "C. lamp, chair, tv, monitor",
+        "D. tv, chair, lamp, monitor"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer\u2019s new observer."
+    },
+    {
+      "id": 1549,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the microwave and facing the door, is the kettle to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. left",
+        "B. right",
+        "C. back"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer."
+    },
+    {
+      "id": 5088,
+      "benchmark": "vsi",
+      "question_type": "route_planning",
+      "question": "You are a robot beginning at the washing machine facing the washing machine. You want to navigate to the shower. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. [please fill in] 2. Go forward until the shelf 3. [please fill in] 4. Go forward until the shower. You have reached the final destination.",
+      "options": [
+        "A. Turn Back, Turn Right",
+        "B. Turn Left, Turn Left",
+        "C. Turn Back, Turn Left",
+        "D. Turn Right, Turn Right"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "After relocating to shower (Object0) and facing shoes (Object1), the new new new new new new new new new new new new new new"
+    },
+    {
+      "id": 1238,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_easy",
+      "question": "If I am standing by the sofa and facing the stove, is the tv to the left or the right of the stove?",
+      "options": [
+        "A. left",
+        "B. right"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new new new new new observer point) from the new observer."
+    },
+    {
+      "id": 2206,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the ceiling light, measured in centimeters?",
+      "options": null,
+      "ground_truth": "32",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer has identified as to be to face smoke detector (Object1), smoke detector (Object2)"
+    },
+    {
+      "id": 205,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the refrigerator, measured in centimeters?",
+      "options": null,
+      "ground_truth": "186",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new point) as the new point) as to be to be to be  and  The faucet (Object"
+    },
+    {
+      "id": 3799,
+      "benchmark": "vsi",
+      "question_type": "room_size_estimation",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "options": null,
+      "ground_truth": "14.0",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new point) as to face backpack (Object1), it\u2019s new observer stands to the right and  relative"
+    },
+    {
+      "id": 811,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the tv and the bed (in meters)?",
+      "options": null,
+      "ground_truth": "2.2",
+      "mc_answer": null,
+      "prediction": "The new observer stands to the new behind the new observer"
+    },
+    {
+      "id": 1846,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_hard",
+      "question": "If I am standing by the door and facing the kettle, is the microwave to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "options": [
+        "A. back-right",
+        "B. back-left",
+        "C. front-right",
+        "D. front-left"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer."
+    },
+    {
+      "id": 669,
+      "benchmark": "vsi",
+      "question_type": "room_size_estimation",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "options": null,
+      "ground_truth": "19.3",
+      "mc_answer": null,
+      "prediction": "the white rectangular window frame, the white rectangular window frame, the new new new new new observer.7.83"
+    },
+    {
+      "id": 5120,
+      "benchmark": "vsi",
+      "question_type": "route_planning",
+      "question": "You are a robot beginning at the chair and facing the monitor. You want to navigate to the closet. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. [please fill in] 2. Go forward until the red curtain 3. [please fill in] 4. Go forward until the closet. You have reached the final destination.",
+      "options": [
+        "A. Turn Right, Turn Right",
+        "B. Turn Back, Turn Left",
+        "C. Turn Left, Turn Left",
+        "D. Turn Right, Turn Left"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new standpoint at clothes (Object0), with focus on clothes (Object1), gaze on clothes (Object1"
+    },
+    {
+      "id": 4706,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the fan and the lamp (in meters)?",
+      "options": null,
+      "ground_truth": "1.7",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer occupies lamp (Object0), facing lamp (Object1), it clear in the new observer."
+    },
+    {
+      "id": 2041,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (table, sofa, toilet, chair) is the closest to the blanket?",
+      "options": [
+        "A. table",
+        "B. sofa",
+        "C. toilet",
+        "D. chair"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer occupies the new observer."
+    },
+    {
+      "id": 5087,
+      "benchmark": "vsi",
+      "question_type": "route_planning",
+      "question": "You are a robot beginning at the tv facing the tv. You want to navigate to the table. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. [please fill in] 2. Go forward until the table. You have reached the final destination.",
+      "options": [
+        "A. Turn Right",
+        "B. Turn Left",
+        "C. Turn Back"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer point of the new observer."
+    },
+    {
+      "id": 777,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the chair and the bed (in meters)?",
+      "options": null,
+      "ground_truth": "2.1",
+      "mc_answer": null,
+      "prediction": "From the new observer"
+    },
+    {
+      "id": 4387,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many window(s) are in this room?",
+      "options": null,
+      "ground_truth": "3",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new point), facing window (Object1), window (Object2) is found to the right and  relative"
+    },
+    {
+      "id": 2649,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many table(s) are in this room?",
+      "options": null,
+      "ground_truth": "5",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new point) is to table (Object3). It may appear to the right and above from table"
+    },
+    {
+      "id": 37,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many table(s) are in this room?",
+      "options": null,
+      "ground_truth": "4",
+      "mc_answer": null,
+      "prediction": "In the new new new new new new new new new new new new new new observer. The  the new new new new new new new new new new"
+    },
+    {
+      "id": 1218,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the refrigerator and facing the stove, is the table to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. back",
+        "B. left",
+        "C. right"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "the white outlet (Object3) are in the new new new new new new new new new new new new new new new new new new new new new"
+    },
+    {
+      "id": 4828,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the mirror and the window (in meters)?",
+      "options": null,
+      "ground_truth": "0.9",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer occupies, window (Object2) stands to the right and  from window (Object3)."
+    },
+    {
+      "id": 4500,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many pillow(s) are in this room?",
+      "options": null,
+      "ground_truth": "3",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new standpoint at pillow (Object1) and facing pillow (Object1), pillow (Object2) appears"
+    },
+    {
+      "id": 1749,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the trash can and the keyboard (in meters)?",
+      "options": null,
+      "ground_truth": "0.9",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new point) as to the right and above relative to keyboard (Object3). It may appear closer."
+    },
+    {
+      "id": 2448,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_easy",
+      "question": "If I am standing by the refrigerator and facing the door, is the microwave to the left or the right of the door?",
+      "options": [
+        "A. right",
+        "B. left"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new point of counter (Object0), facing counter (Object1), kitchen counter (Object2) is found to the left and"
+    },
+    {
+      "id": 5008,
+      "benchmark": "vsi",
+      "question_type": "route_planning",
+      "question": "You are a robot beginning at the door and facing the standing lamps. You want to navigate to the tv. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. Go forward until the sofa. 2. [please fill in] 3. Go forward until the fireplace. 4. [please fill in] 5. Go forward until the tv. You have reached the final destination.",
+      "options": [
+        "A. Turn Back, Turn Left",
+        "B. Turn Right, Turn Left",
+        "C. Turn Left, Turn Left",
+        "D. Turn Left, Turn Right"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "Having reached to tv (Object0) and facing vent (Object1), one identifies distance of 3) as to the right and above compared to tv"
+    },
+    {
+      "id": 3724,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_easy",
+      "question": "If I am standing by the door and facing the window, is the trash bin to the left or the right of the window?",
+      "options": [
+        "A. right",
+        "B. left"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new observer occupies the new observer."
+    },
+    {
+      "id": 3755,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_easy",
+      "question": "If I am standing by the nightstand and facing the fan, is the radiator to the left or the right of the fan?",
+      "options": [
+        "A. left",
+        "B. right"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new observer point)  and facing shoes (Object1) as the new observer. The images (Object2) is in the"
+    },
+    {
+      "id": 2872,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: microwave, sofa, trash can, pillow?",
+      "options": [
+        "A. sofa, pillow, trash can, microwave",
+        "B. trash can, sofa, pillow, microwave",
+        "C. microwave, sofa, trash can, pillow",
+        "D. sofa, trash can, microwave, pillow"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer stands in this new observer\u2019s new observer."
+    },
+    {
+      "id": 1160,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the tv and facing the fireplace, is the stool to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. right",
+        "B. back",
+        "C. left"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer occupies, I see  and facing heater (Object1), tv (Object2) is found to"
+    },
+    {
+      "id": 412,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the refrigerator, measured in centimeters?",
+      "options": null,
+      "ground_truth": "136",
+      "mc_answer": null,
+      "prediction": "the smoke detector (Object2) are in the new new new new new new new new new new new new new new new new new new new new new"
+    },
+    {
+      "id": 1046,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_hard",
+      "question": "If I am standing by the bed and facing the chair, is the tv to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "options": [
+        "A. back-right",
+        "B. front-left",
+        "C. front-right",
+        "D. back-left"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new new new new observer."
+    },
+    {
+      "id": 2722,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: plant, door, blanket, basket?",
+      "options": [
+        "A. basket, door, blanket, plant",
+        "B. door, basket, blanket, plant",
+        "C. blanket, basket, door, plant",
+        "D. plant, door, blanket, basket"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new observer occupies,  The heater (Object2) is behind the new new new observer."
+    },
+    {
+      "id": 1958,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (whiteboard, computer tower, bookshelf, laptop) is the closest to the telephone?",
+      "options": [
+        "A. whiteboard",
+        "B. computer tower",
+        "C. bookshelf",
+        "D. laptop"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer."
+    },
+    {
+      "id": 4966,
+      "benchmark": "vsi",
+      "question_type": "route_planning",
+      "question": "You are a robot beginning at the blue chair and facing the fan beside the boxes. You want to navigate to the trash bin. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. Go forward until passing the tables on the right. 2. [please fill in] 3. Go forward until the trash bin. You have reached the final destination.",
+      "options": [
+        "A. Turn Left",
+        "B. Turn Back",
+        "C. Turn Right"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new new new new new observer."
+    },
+    {
+      "id": 2522,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many keyboard(s) are in this room?",
+      "options": null,
+      "ground_truth": "3",
+      "mc_answer": null,
+      "prediction": "From the new standpoint at keyboard (Object0), with vision at 3) from outlet (Object1), it\u2019s new observer also be described as to"
+    },
+    {
+      "id": 14,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many sofa(s) are in this room?",
+      "options": null,
+      "ground_truth": "2",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new point) from sofa (Object3) and facing smoke detector (Object1), sofa (Object2"
+    },
+    {
+      "id": 5010,
+      "benchmark": "vsi",
+      "question_type": "route_planning",
+      "question": "You are a robot beginning at the door and facing the cabinet. You want to navigate to the window. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. Go forward until the cabinet. 2. [please fill in] 3. Go forward until the window. You have reached the final destination.",
+      "options": [
+        "A. Turn Back",
+        "B. Turn Left",
+        "C. Turn Right"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new observer occupies the new observer occupies identified 2) with focus on cabinet (Object1), the new observer stands"
+    },
+    {
+      "id": 1787,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the tv and the chair (in meters)?",
+      "options": null,
+      "ground_truth": "0.9",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer point) are in front."
+    },
+    {
+      "id": 3416,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the tv, measured in centimeters?",
+      "options": null,
+      "ground_truth": "103",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new observer stands to tv (Object3). It could be closer. The tv (Object2)"
+    },
+    {
+      "id": 4456,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many backpack(s) are in this room?",
+      "options": null,
+      "ground_truth": "3",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new new new new new new new observer."
+    },
+    {
+      "id": 2961,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (door, table, tv, chair) is the closest to the trash bin?",
+      "options": [
+        "A. door",
+        "B. table",
+        "C. tv",
+        "D. chair"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer. The chair (Object2) is in front of the new observer."
+    },
+    {
+      "id": 2286,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the heater, measured in centimeters?",
+      "options": null,
+      "ground_truth": "116",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer stands to faucet (Object3), focused in relation to faucet (Object3). It may appear"
+    },
+    {
+      "id": 517,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the stove, measured in centimeters?",
+      "options": null,
+      "ground_truth": "58",
+      "mc_answer": null,
+      "prediction": "the white"
+    },
+    {
+      "id": 1419,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (tv, bed, fireplace, table) is the closest to the chair?",
+      "options": [
+        "A. tv",
+        "B. bed",
+        "C. fireplace",
+        "D. table"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "the new new new new new new new new new new new new new new new new new new new new new new new new new new new new new new"
+    },
+    {
+      "id": 1905,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (telephone, computer mouse, keyboard, table) is the closest to the trash can?",
+      "options": [
+        "A. telephone",
+        "B. computer mouse",
+        "C. keyboard",
+        "D. table"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "From the new new new new new observer occupies the new observer."
+    },
+    {
+      "id": 4033,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: pillow, tv, lamp, trash bin?",
+      "options": [
+        "A. pillow, lamp, tv, trash bin",
+        "B. pillow, tv, lamp, trash bin",
+        "C. pillow, lamp, trash bin, tv",
+        "D. lamp, trash bin, tv, pillow"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer."
+    },
+    {
+      "id": 4465,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many backpack(s) are in this room?",
+      "options": null,
+      "ground_truth": "2",
+      "mc_answer": null,
+      "prediction": "From the new standpoint at backpack (Object0), facing backpack (Object1), backpack (Object2) is found to the right and above relative to backpack"
+    },
+    {
+      "id": 3903,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: window, door, backpack, lamp?",
+      "options": [
+        "A. door, lamp, backpack, window",
+        "B. window, door, backpack, lamp",
+        "C. backpack, door, lamp, window",
+        "D. window, door, lamp, backpack"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer\u2019s new observer."
+    },
+    {
+      "id": 3411,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the trash bin, measured in centimeters?",
+      "options": null,
+      "ground_truth": "106",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer stands in front, trash bin (Object2) stands to the right and above with respect to"
+    },
+    {
+      "id": 4829,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the bookshelf and the chair (in meters)?",
+      "options": null,
+      "ground_truth": "1.7",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer occupies backpack (Object0), with vision identified as to the right and above relative to chair ("
+    },
+    {
+      "id": 2401,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the tv, measured in centimeters?",
+      "options": null,
+      "ground_truth": "108",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer stands in relation to exhaust (Object3). It could be closer. The tv (Object2)"
+    },
+    {
+      "id": 1766,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the telephone and the door (in meters)?",
+      "options": null,
+      "ground_truth": "8.4",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new point) as the new observer. The outlet (Object2) is in the new observer."
+    },
+    {
+      "id": 62,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many sofa(s) are in this room?",
+      "options": null,
+      "ground_truth": "3",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new point) as to sofa (Object3) and facing sofa (Object1), it is found to"
+    },
+    {
+      "id": 3128,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (sofa, window, table, trash bin) is the closest to the printer?",
+      "options": [
+        "A. sofa",
+        "B. window",
+        "C. table",
+        "D. trash bin"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new observer occupies the new observer."
+    },
+    {
+      "id": 2171,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (suitcase, cutting board, monitor, microwave) is the closest to the power strip?",
+      "options": [
+        "A. suitcase",
+        "B. cutting board",
+        "C. monitor",
+        "D. microwave"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new new new observer point) while looking at power outlet (Object3) in the new observer."
+    },
+    {
+      "id": 4245,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the chair and facing the radiator, is the refrigerator to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. back",
+        "B. right",
+        "C. left"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new observer."
+    },
+    {
+      "id": 1424,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (stove, tv, table, chair) is the closest to the sofa?",
+      "options": [
+        "A. stove",
+        "B. tv",
+        "C. table",
+        "D. chair"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer point) behind the new observer. The table (Object2) is in front of the new observer."
+    },
+    {
+      "id": 2867,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: keyboard, cup, printer, laptop?",
+      "options": [
+        "A. printer, laptop, keyboard, cup",
+        "B. keyboard, cup, printer, laptop",
+        "C. printer, cup, keyboard, laptop",
+        "D. keyboard, printer, cup, laptop"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new new observer\u2019s new observer occupies the new observer, the room\u2019s evident to be to the right and above relative to printer (Object3)."
+    },
+    {
+      "id": 731,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the tv and the bed (in meters)?",
+      "options": null,
+      "ground_truth": "2.3",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer point) as to face window (Object1), it\u2019s new observer appear to the right and"
+    },
+    {
+      "id": 3984,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: trash bin, window, clock, table?",
+      "options": [
+        "A. window, table, clock, trash bin",
+        "B. table, trash bin, window, clock",
+        "C. trash bin, window, clock, table",
+        "D. trash bin, window, table, clock"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer occupies the new observer, I can (Object2) is found to the right and above relative to"
+    },
+    {
+      "id": 1957,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (whiteboard, computer mouse, bookshelf, laptop) is the closest to the computer tower?",
+      "options": [
+        "A. whiteboard",
+        "B. computer mouse",
+        "C. bookshelf",
+        "D. laptop"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer."
+    },
+    {
+      "id": 1308,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_easy",
+      "question": "If I am standing by the toilet and facing the bathtub, is the sofa to the left or the right of the bathtub?",
+      "options": [
+        "A. left",
+        "B. right"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "In the new observer."
+    },
+    {
+      "id": 1560,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the door and facing the ceiling light, is the monitor to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. back",
+        "B. right",
+        "C. left"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer occupies the video, I estimate the room appears to be to be to face exhaust (Object1), the new observer stands"
+    },
+    {
+      "id": 1590,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the cup and facing the door, is the whiteboard to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. left",
+        "B. back",
+        "C. right"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new new new observer occupies the new observer."
+    },
+    {
+      "id": 3375,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the trash bin, measured in centimeters?",
+      "options": null,
+      "ground_truth": "31",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new point) as  The trash can (Object2) is in front of the new observer. The trash"
+    },
+    {
+      "id": 655,
+      "benchmark": "vsi",
+      "question_type": "room_size_estimation",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "options": null,
+      "ground_truth": "24.3",
+      "mc_answer": null,
+      "prediction": "In the new new new new new new new new observer."
+    },
+    {
+      "id": 3286,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the towel, measured in centimeters?",
+      "options": null,
+      "ground_truth": "45",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new new new new new new new observer. The towel (Object2) is in the new observer"
+    },
+    {
+      "id": 3483,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the window, measured in centimeters?",
+      "options": null,
+      "ground_truth": "113",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer stands to window."
+    },
+    {
+      "id": 4767,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the door and the keyboard (in meters)?",
+      "options": null,
+      "ground_truth": "2.9",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer occupies, the new observer stands to be to the right and above relative to keyboard (Object3"
+    },
+    {
+      "id": 2989,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (door, chair, lamp, trash bin) is the closest to the window?",
+      "options": [
+        "A. door",
+        "B. chair",
+        "C. lamp",
+        "D. trash bin"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new new observer occupies the new observer."
+    },
+    {
+      "id": 1599,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the computer mouse and the power strip (in meters)?",
+      "options": null,
+      "ground_truth": "1.0",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer stands to power outlet (Object1), the new observer stands to the right and above in relation to"
+    },
+    {
+      "id": 67,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many table(s) are in this room?",
+      "options": null,
+      "ground_truth": "2",
+      "mc_answer": null,
+      "prediction": "From the new new standpoint at table (Object0), with identified as  and facing table (Object1), table (Object2) is found to the"
+    },
+    {
+      "id": 990,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_hard",
+      "question": "If I am standing by the chair and facing the bed, is the table to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "options": [
+        "A. front-right",
+        "B. back-right",
+        "C. back-left",
+        "D. front-left"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer."
+    },
+    {
+      "id": 549,
+      "benchmark": "vsi",
+      "question_type": "room_size_estimation",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "options": null,
+      "ground_truth": "17.6",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new point) as the new point) as to face kitchen outlet (Object1), it\u2019s new observer occupies the"
+    },
+    {
+      "id": 2190,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (ceiling light, pillow, keyboard, chair) is the closest to the door?",
+      "options": [
+        "A. ceiling light",
+        "B. pillow",
+        "C. keyboard",
+        "D. chair"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new observer occupies, the room (Object2) stands to the right and above relative to headphones (Object3). It"
+    },
+    {
+      "id": 2022,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (chair, keyboard, coat rack, ceiling light) is the closest to the trash can?",
+      "options": [
+        "A. chair",
+        "B. keyboard",
+        "C. coat rack",
+        "D. ceiling light"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer. The heater (Object2) is in the new observer. The heat pipe (Object3) is in the new"
+    },
+    {
+      "id": 3248,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the window, measured in centimeters?",
+      "options": null,
+      "ground_truth": "54",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer occupies stair (Object0), with vision identified as to the right and above relative to stair (Object"
+    },
+    {
+      "id": 4650,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the table and the bed (in meters)?",
+      "options": null,
+      "ground_truth": "0.8",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer stands in front of the new observer."
+    },
+    {
+      "id": 4936,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the trash bin and the nightstand (in meters)?",
+      "options": null,
+      "ground_truth": "2.9",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new point) as the new observer. The trash can (Object2) is in the new observer. The"
+    },
+    {
+      "id": 4576,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many sofa(s) are in this room?",
+      "options": null,
+      "ground_truth": "2",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new new new new new new new observer stands to sofa."
+    },
+    {
+      "id": 3075,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (lamp, bed, tv, window) is the closest to the closet?",
+      "options": [
+        "A. lamp",
+        "B. bed",
+        "C. tv",
+        "D. window"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer."
+    },
+    {
+      "id": 1217,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the stove and facing the table, is the refrigerator to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. back",
+        "B. right",
+        "C. left"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "the white outlet (Object3) are in the new new new new new new new new new new new new new new new new new new new new new"
+    },
+    {
+      "id": 4266,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the window and facing the door, is the table to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. back",
+        "B. left",
+        "C. right"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer."
+    },
+    {
+      "id": 2053,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (shoes, door, table, toilet) is the closest to the bed?",
+      "options": [
+        "A. shoes",
+        "B. door",
+        "C. table",
+        "D. toilet"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer occupies the new observer."
+    },
+    {
+      "id": 535,
+      "benchmark": "vsi",
+      "question_type": "room_size_estimation",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "options": null,
+      "ground_truth": "10.2",
+      "mc_answer": null,
+      "prediction": "In the new new new new new new new observer. The the new observer stands in the new observer."
+    },
+    {
+      "id": 4050,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: window, table, chair, bed?",
+      "options": [
+        "A. bed, chair, table, window",
+        "B. bed, window, chair, table",
+        "C. window, bed, chair, table",
+        "D. window, table, chair, bed"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer\u2019s new observer. The chair (Object2) is in front of the new observer."
+    },
+    {
+      "id": 3813,
+      "benchmark": "vsi",
+      "question_type": "room_size_estimation",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "options": null,
+      "ground_truth": "6.7",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new observer stands in relation to exhaust fan (Object3). It could seem closer. The exhaust fan (Object2"
+    },
+    {
+      "id": 4637,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the door and the refrigerator (in meters)?",
+      "options": null,
+      "ground_truth": "1.6",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new observer stands in view."
+    },
+    {
+      "id": 1178,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the refrigerator and facing the chair, is the stove to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. back",
+        "B. right",
+        "C. left"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer."
+    },
+    {
+      "id": 1473,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (table, stool, chair, sofa) is the closest to the tv?",
+      "options": [
+        "A. table",
+        "B. stool",
+        "C. chair",
+        "D. sofa"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer point) while looking at curtain (Object3) in the new observer."
+    },
+    {
+      "id": 1530,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the computer tower and facing the keyboard, is the telephone to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. back",
+        "B. right",
+        "C. left"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer."
+    },
+    {
+      "id": 2471,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_easy",
+      "question": "If I am standing by the pillow and facing the heater, is the ceiling light to the left or the right of the heater?",
+      "options": [
+        "A. left",
+        "B. right"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new point at heater (Object0), focused in vision identified  and facing heater (Object1). It appears to the right and above relative to"
+    },
+    {
+      "id": 3133,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (tv, window, chair, table) is the closest to the door?",
+      "options": [
+        "A. tv",
+        "B. window",
+        "C. chair",
+        "D. table"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer occupies the new observer."
+    },
+    {
+      "id": 1597,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the door and the power strip (in meters)?",
+      "options": null,
+      "ground_truth": "2.7",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer stands to power outlet (Object1) and  The power outlet (Object2) is in front"
+    },
+    {
+      "id": 3284,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the door, measured in centimeters?",
+      "options": null,
+      "ground_truth": "211",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new observer. The table (Object2) is in front of the new observer. The table ("
+    },
+    {
+      "id": 3027,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (table, sofa, counter, chair) is the closest to the trash bin?",
+      "options": [
+        "A. table",
+        "B. sofa",
+        "C. counter",
+        "D. chair"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer occupies the new observer."
+    },
+    {
+      "id": 3502,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the chair, measured in centimeters?",
+      "options": null,
+      "ground_truth": "86",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new point) as to face cabinets (Object1), it is found to the right and above relative to"
+    },
+    {
+      "id": 4167,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: chair, mirror, lamp, door?",
+      "options": [
+        "A. door, lamp, mirror, chair",
+        "B. chair, mirror, lamp, door",
+        "C. lamp, chair, door, mirror",
+        "D. chair, lamp, door, mirror"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "From the new new new new observer occupy the new observer occupies the new observer, there are in the new observer."
+    },
+    {
+      "id": 2854,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: whiteboard, computer mouse, door, telephone?",
+      "options": [
+        "A. door, computer mouse, telephone, whiteboard",
+        "B. whiteboard, computer mouse, door, telephone",
+        "C. computer mouse, telephone, whiteboard, door",
+        "D. telephone, door, whiteboard, computer mouse"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new observer,  the room appears to the right and above relative to outlet (Object3). It may seem closer. The white"
+    },
+    {
+      "id": 927,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the washer and the bathtub (in meters)?",
+      "options": null,
+      "ground_truth": "1.1",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer."
+    },
+    {
+      "id": 4297,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the closet and facing the trash bin, is the mirror to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. right",
+        "B. back",
+        "C. left"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer."
+    },
+    {
+      "id": 3997,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: trash bin, window, backpack, monitor?",
+      "options": [
+        "A. trash bin, monitor, backpack, window",
+        "B. trash bin, window, backpack, monitor",
+        "C. monitor, backpack, trash bin, window",
+        "D. monitor, window, backpack, trash bin"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer occupies the new observer, the new observer stands to the right and above relative to trash (Object3"
+    },
+    {
+      "id": 3408,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the backpack, measured in centimeters?",
+      "options": null,
+      "ground_truth": "85",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer has identified as the new observer. The backpack (Object2) is in the new observer."
+    },
+    {
+      "id": 4194,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: nightstand, closet, backpack, towel?",
+      "options": [
+        "A. closet, backpack, nightstand, towel",
+        "B. nightstand, closet, towel, backpack",
+        "C. closet, towel, backpack, nightstand",
+        "D. nightstand, closet, backpack, towel"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer\u2019s new observer occupies the new observer."
+    },
+    {
+      "id": 4595,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many window(s) are in this room?",
+      "options": null,
+      "ground_truth": "2",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new 2) as ), window (Object2) is found to the right and above relative to"
+    },
+    {
+      "id": 949,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the toilet and the bathtub (in meters)?",
+      "options": null,
+      "ground_truth": "1.5",
+      "mc_answer": null,
+      "prediction": "the white rectangular 3"
+    },
+    {
+      "id": 5138,
+      "benchmark": "vsi",
+      "question_type": "route_planning",
+      "question": "You are a robot beginning at the toilet facing the bath tub. You want to navigate to the door. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. [please fill in] 2. Go forward until the door. You have reached the final destination.",
+      "options": [
+        "A. Turn Left",
+        "B. Turn Right",
+        "C. Turn Back"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new observer."
+    },
+    {
+      "id": 1060,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_hard",
+      "question": "If I am standing by the refrigerator and facing the washer, is the table to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "options": [
+        "A. front-right",
+        "B. back-right",
+        "C. front-left",
+        "D. back-left"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new new new new observer."
+    },
+    {
+      "id": 4138,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: window, lamp, door, sofa?",
+      "options": [
+        "A. window, sofa, door, lamp",
+        "B. lamp, window, door, sofa",
+        "C. window, lamp, door, sofa",
+        "D. window, sofa, lamp, door"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new new observer occupies, we see  and look toward 2) in front of the new observer."
+    },
+    {
+      "id": 2700,
+      "benchmark": "vsi",
+      "question_type": "room_size_estimation",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "options": null,
+      "ground_truth": "15.5",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new point) as to face smoke detector (Object1), it\u2019s evident to the right and above relative to smoke"
+    },
+    {
+      "id": 3969,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: chair, door, bookshelf, fan?",
+      "options": [
+        "A. chair, fan, door, bookshelf",
+        "B. chair, door, bookshelf, fan",
+        "C. chair, bookshelf, fan, door",
+        "D. door, bookshelf, fan, chair"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer\u2019s new observer. The books (Object2) is in front of the new observer."
+    },
+    {
+      "id": 3974,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: clock, window, keyboard, trash bin?",
+      "options": [
+        "A. keyboard, trash bin, window, clock",
+        "B. keyboard, clock, window, trash bin",
+        "C. trash bin, keyboard, clock, window",
+        "D. clock, window, keyboard, trash bin"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer occupies the new observer, the new observer stands to the right and above relative to windowsill (Object"
+    },
+    {
+      "id": 4301,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the closet and facing the tv, is the mirror to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. back",
+        "B. left",
+        "C. right"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer."
+    },
+    {
+      "id": 4307,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the window and facing the keyboard, is the door to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. right",
+        "B. back",
+        "C. left"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new new new observer occupies the new observer."
+    },
+    {
+      "id": 2131,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (whiteboard, computer mouse, laptop, plant) is the closest to the heater?",
+      "options": [
+        "A. whiteboard",
+        "B. computer mouse",
+        "C. laptop",
+        "D. plant"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "From the new new new new new observer occupies the new observer."
+    },
+    {
+      "id": 1485,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (stove, chair, refrigerator, table) is the closest to the tv?",
+      "options": [
+        "A. stove",
+        "B. chair",
+        "C. refrigerator",
+        "D. table"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "the white rectangular window frame"
+    },
+    {
+      "id": 763,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the refrigerator and the dishwasher (in meters)?",
+      "options": null,
+      "ground_truth": "1.4",
+      "mc_answer": null,
+      "prediction": "In the new observer"
+    },
+    {
+      "id": 3718,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_easy",
+      "question": "If I am standing by the chair and facing the bed, is the mirror to the left or the right of the bed?",
+      "options": [
+        "A. right",
+        "B. left"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new point at mirror (Object0), facing bed (Object1), I found to the right and  and above relative to bed (Object3"
+    },
+    {
+      "id": 4735,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the trash bin and the towel (in meters)?",
+      "options": null,
+      "ground_truth": "1.0",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new new new new new new observer."
+    },
+    {
+      "id": 2028,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (heater, trash can, microwave, cup) is the closest to the door?",
+      "options": [
+        "A. heater",
+        "B. trash can",
+        "C. microwave",
+        "D. cup"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new new new new observer."
+    },
+    {
+      "id": 1649,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the exhaust fan and the door (in meters)?",
+      "options": null,
+      "ground_truth": "1.8",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new point) and facing books (Object1), duct (Object2) is found to the right and above"
+    },
+    {
+      "id": 957,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_hard",
+      "question": "If I am standing by the stove and facing the sofa, is the tv to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "options": [
+        "A. front-left",
+        "B. back-right",
+        "C. back-left",
+        "D. front-right"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new new observer."
+    },
+    {
+      "id": 3132,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (tv, pillow, guitar, lamp) is the closest to the door?",
+      "options": [
+        "A. tv",
+        "B. pillow",
+        "C. guitar",
+        "D. lamp"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer occupies the new observer."
+    },
+    {
+      "id": 1486,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (stool, stove, refrigerator, chair) is the closest to the tv?",
+      "options": [
+        "A. stool",
+        "B. stove",
+        "C. refrigerator",
+        "D. chair"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "the white rectangular window frame"
+    },
+    {
+      "id": 3446,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the window, measured in centimeters?",
+      "options": null,
+      "ground_truth": "151",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new new new new new new observer point) as to the right and below relative to windowsill ("
+    },
+    {
+      "id": 4043,
+      "benchmark": "vsi",
+      "question_type": "obj_appearance_order",
+      "question": "What will be the first-time appearance order of the following categories in the video: pillow, backpack, closet, door?",
+      "options": [
+        "A. pillow, door, backpack, closet",
+        "B. door, pillow, backpack, closet",
+        "C. door, backpack, pillow, closet",
+        "D. pillow, backpack, closet, door"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new new new new new observer."
+    },
+    {
+      "id": 3259,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the window, measured in centimeters?",
+      "options": null,
+      "ground_truth": "116",
+      "mc_answer": null,
+      "prediction": "From the new new standpoint at windowsill (Object0), with vision at shoes (Object1), window (Object2) is found to the right and"
+    },
+    {
+      "id": 5046,
+      "benchmark": "vsi",
+      "question_type": "route_planning",
+      "question": "You are a robot beginning at the window and facing the window. You want to navigate to the door. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. [please fill in] 2. Go forward until the wall 3. [please fill in] 4. Go forward until the door. You have reached the final destination.",
+      "options": [
+        "A. Turn Right, Turn Right",
+        "B. Turn Back, Turn Right",
+        "C. Turn Left, Turn Right",
+        "D. Turn Right, Turn Left"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new standpoint at window (Object0), directed toward window (Object1), the observer finds this new observer stands to the right above. It may"
+    },
+    {
+      "id": 389,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the table, measured in centimeters?",
+      "options": null,
+      "ground_truth": "50",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new point) as to be to be to face  from face 3), it is  and  and"
+    },
+    {
+      "id": 3815,
+      "benchmark": "vsi",
+      "question_type": "room_size_estimation",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "options": null,
+      "ground_truth": "22.2",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new point) as to face 2) from face 3), it see it the new observer. The clip"
+    },
+    {
+      "id": 5142,
+      "benchmark": "vsi",
+      "question_type": "route_planning",
+      "question": "You are a robot beginning at the red cabinet right next to the kitchen facing the red cabinet right next to the kitchen. You want to navigate to the white single-seat sofa. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. [please fill in] 2. Go forward until the white single-seat sofa. You have reached the final destination.",
+      "options": [
+        "A. Turn Back",
+        "B. Turn Right",
+        "C. Turn Left"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new observer."
+    },
+    {
+      "id": 4282,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the sofa and facing the trash bin, is the refrigerator to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. left",
+        "B. right",
+        "C. back"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer."
+    },
+    {
+      "id": 1025,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_hard",
+      "question": "If I am standing by the refrigerator and facing the stove, is the tv to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "options": [
+        "A. back-right",
+        "B. front-left",
+        "C. back-left",
+        "D. front-right"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "In the new new new new new new new new new new new new new new new new new new new new new new new new new new new new new"
+    },
+    {
+      "id": 1813,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_hard",
+      "question": "If I am standing by the telephone and facing the door, is the whiteboard to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+      "options": [
+        "A. back-left",
+        "B. back-right",
+        "C. front-right",
+        "D. front-left"
+      ],
+      "ground_truth": "C",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer occupies placed to face 2), one notes I estimate the new observer stands to the right and above the new observer."
+    },
+    {
+      "id": 394,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the refrigerator, measured in centimeters?",
+      "options": null,
+      "ground_truth": "156",
+      "mc_answer": null,
+      "prediction": "the  the new new new new new new new new new new new new new new observer."
+    },
+    {
+      "id": 1136,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_medium",
+      "question": "If I am standing by the bed and facing the tv, is the toilet to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+      "options": [
+        "A. left",
+        "B. right",
+        "C. back"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new observer\u2019s new observer occupies the new observer occupies the new observer."
+    },
+    {
+      "id": 2187,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (ceiling light, bed, door, trash can) is the closest to the computer mouse?",
+      "options": [
+        "A. ceiling light",
+        "B. bed",
+        "C. door",
+        "D. trash can"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "From the new new new observer point of each object: For smoke detector (Object3) is behind the new observer."
+    },
+    {
+      "id": 2704,
+      "benchmark": "vsi",
+      "question_type": "room_size_estimation",
+      "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+      "options": null,
+      "ground_truth": "101.2",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new point) and facing exhaust (Object3) as being in the new observer. The duct (Object2"
+    },
+    {
+      "id": 5080,
+      "benchmark": "vsi",
+      "question_type": "route_planning",
+      "question": "You are a robot beginning at the TV facing the TV. You want to navigate to the bed. You will perform the following actions (Note: for each [please fill in], choose either 'turn back,' 'turn left,' or 'turn right.'): 1. [please fill in] 2. Go forward until the bed. You have reached the final destination.",
+      "options": [
+        "A. Turn Right",
+        "B. Turn Back",
+        "C. Turn Left"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new new observer\u2019s new observer."
+    },
+    {
+      "id": 4764,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the door and the telephone (in meters)?",
+      "options": null,
+      "ground_truth": "3.8",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer occupies backpack (Object1), with vision you settle of the new new new observer. The desk"
+    },
+    {
+      "id": 1494,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (bed, sofa, stool, table) is the closest to the tv?",
+      "options": [
+        "A. bed",
+        "B. sofa",
+        "C. stool",
+        "D. table"
+      ],
+      "ground_truth": "D",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new observer."
+    },
+    {
+      "id": 2276,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the heater, measured in centimeters?",
+      "options": null,
+      "ground_truth": "300",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new observer stands in relation to heater (Object3). It could be closer. The heater (Object2"
+    },
+    {
+      "id": 1262,
+      "benchmark": "vsi",
+      "question_type": "object_rel_direction_easy",
+      "question": "If I am standing by the table and facing the toilet, is the tv to the left or the right of the toilet?",
+      "options": [
+        "A. right",
+        "B. left"
+      ],
+      "ground_truth": "A",
+      "mc_answer": null,
+      "prediction": "From the new point at toilet (Object0), focused in relation to toilet (Object3). It could be to the right and above toilet (Object3"
+    },
+    {
+      "id": 796,
+      "benchmark": "vsi",
+      "question_type": "object_abs_distance",
+      "question": "Measuring from the closest point of each object, what is the distance between the fireplace and the bed (in meters)?",
+      "options": null,
+      "ground_truth": "1.9",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new new new point) and facing smoke detector (Object1) as the new observer. The smoke detector ("
+    },
+    {
+      "id": 2616,
+      "benchmark": "vsi",
+      "question_type": "object_counting",
+      "question": "How many chair(s) are in this room?",
+      "options": null,
+      "ground_truth": "3",
+      "mc_answer": null,
+      "prediction": "From the new new standpoint at chair (Object0), with vision locked on smoke detector (Object1), chair (Object2) is found to the right"
+    },
+    {
+      "id": 222,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the refrigerator, measured in centimeters?",
+      "options": null,
+      "ground_truth": "186",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new point), with vision identified as to the right and above relative to exhaust (Object3). It may"
+    },
+    {
+      "id": 2223,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the computer mouse, measured in centimeters?",
+      "options": null,
+      "ground_truth": "11",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new point) as  The computer mouse (Object2) and smoke detector (Object3) are in front"
+    },
+    {
+      "id": 1908,
+      "benchmark": "vsi",
+      "question_type": "object_rel_distance",
+      "question": "Measuring from the closest point of each object, which of these objects (table, whiteboard, power strip, heater) is the closest to the bookshelf?",
+      "options": [
+        "A. table",
+        "B. whiteboard",
+        "C. power strip",
+        "D. heater"
+      ],
+      "ground_truth": "B",
+      "mc_answer": null,
+      "prediction": "From the new new new observer\u2019s new observer."
+    },
+    {
+      "id": 230,
+      "benchmark": "vsi",
+      "question_type": "object_size_estimation",
+      "question": "What is the length of the longest dimension (length, width, or height) of the fireplace, measured in centimeters?",
+      "options": null,
+      "ground_truth": "219",
+      "mc_answer": null,
+      "prediction": "From the new new new new new new new new observer."
+    }
+  ]
+}

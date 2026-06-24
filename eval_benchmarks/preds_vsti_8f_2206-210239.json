@@ -1,0 +1,2502 @@
+{
+  "metadata": {
+    "model_path": "/cluster/work/igp_psr/spanwar/G2VLM/models/G2VLM-2B-MoT",
+    "benchmark": "vsti",
+    "subset": "/cluster/work/igp_psr/spanwar/G2VLM/eval_benchmarks/vsti_random200.json",
+    "num_frames": 8,
+    "pixel": 768,
+    "max_length": 32
+  },
+  "results": [
+    {
+      "id": 3556,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 30 of 32, relative to the camera, is table [Near/Far] compared to window?",
+      "options": [
+        "A. Far",
+        "B. Near"
+      ],
+      "ground_truth": "Near",
+      "mc_answer": "B",
+      "prediction": "table (Object2) is identified as the closest to sofa, with a distance of 1.5 meters."
+    },
+    {
+      "id": 4674,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 3 of 31, relative to window, is mirror to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "window (Object2) is positioned 1.0 meters from window, and mirror (blue point)."
+    },
+    {
+      "id": 2708,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (window, printer) is the closest to the camera in frame 26 of 32?",
+      "options": [
+        "A. window",
+        "B. printer"
+      ],
+      "ground_truth": "printer",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives printer (Object2) as to the right below from radiator (Object0) while looking at office chair (Object1). It"
+    },
+    {
+      "id": 3680,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 24 of 32, relative to the camera, is monitor [Near/Far] compared to keyboard?",
+      "options": [
+        "A. Near",
+        "B. Far"
+      ],
+      "ground_truth": "Far",
+      "mc_answer": "B",
+      "prediction": "The observer now to wardrobe closet (Object0) is 2.5 meters."
+    },
+    {
+      "id": 2324,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (counter, window) is the closest to the camera in frame 19 of 32?",
+      "options": [
+        "A. counter",
+        "B. window"
+      ],
+      "ground_truth": "counter",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives washing machines (Object2) as to the right above from boxes of washing machines (Object012). It might seem farther"
+    },
+    {
+      "id": 2411,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (table, radiator) is the closest to the camera in frame 9 of 32?",
+      "options": [
+        "A. table",
+        "B. radiator"
+      ],
+      "ground_truth": "table",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives washing machine (Object2) as to the right below. It might also seem to the front."
+    },
+    {
+      "id": 191,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v2",
+      "question": "Measuring from the closest point of each object, which of these objects (desk, monitor, window) is the closest to the camera in frame 12 of 32?",
+      "options": [
+        "A. desk",
+        "B. monitor",
+        "C. window"
+      ],
+      "ground_truth": "desk",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives monitor (Object2) as to the right and 333) as farther."
+    },
+    {
+      "id": 3068,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (bed, nightstand) is the closest to the camera in frame 29 of 32?",
+      "options": [
+        "A. bed",
+        "B. nightstand"
+      ],
+      "ground_truth": "bed",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives nightstand (Object2) as to the right below."
+    },
+    {
+      "id": 4262,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 27 and frame 29 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Forward, Backward, Left, and Right.",
+      "options": [
+        "A. Forward",
+        "B. Backward",
+        "C. Left",
+        "D. Right"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "D",
+      "prediction": "From the perspective of frame (Object0), oriented toward chair (Object1), coat (Object2) is revealed to the right and  relative to frame"
+    },
+    {
+      "id": 4846,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 29 of 31, relative to trash bin, is window to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "B",
+      "prediction": "The observer now to trash bin is frame of 2.7 meters away from the front of window"
+    },
+    {
+      "id": 5642,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 18 and frame 26 of 32?",
+      "options": null,
+      "ground_truth": "1.1",
+      "mc_answer": null,
+      "prediction": "The observer now perceives jewelry case (red point) as to the right and 4.0 meters."
+    },
+    {
+      "id": 986,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 24 and frame 29 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Right and Backward.",
+      "options": [
+        "A. Right",
+        "B. Backward"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "In the observer's new orientation, with frame (Object0) as to the right and 1."
+    },
+    {
+      "id": 5898,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 2 and frame 11 of 32?",
+      "options": null,
+      "ground_truth": "3.0",
+      "mc_answer": null,
+      "prediction": "The observer now to face frame (red point) is 3.0 meters."
+    },
+    {
+      "id": 4703,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 26 of 31, relative to desk, is bed to the [Left/Right]?",
+      "options": [
+        "A. Left",
+        "B. Right"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "B",
+      "prediction": "The observer now to the right below the center of desk (green point) is 3.0 meters."
+    },
+    {
+      "id": 2731,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (window, desk) is the closest to the camera in frame 5 of 32?",
+      "options": [
+        "A. window",
+        "B. desk"
+      ],
+      "ground_truth": "desk",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives dresser (Object2) as to the right below from who compared to window."
+    },
+    {
+      "id": 1830,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the table in frame 15 of 32?",
+      "options": null,
+      "ground_truth": "1.1",
+      "mc_answer": null,
+      "prediction": "The distance from the center of foos (red point) to the right above."
+    },
+    {
+      "id": 4540,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v1",
+      "question": "Measuring from the closest point of each object, which of these objects (table, radiator, window, keyboard) is the closest to the camera in frame 4 of 32?",
+      "options": [
+        "A. table",
+        "B. radiator",
+        "C. window",
+        "D. keyboard"
+      ],
+      "ground_truth": "table",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives radiator (Object2) as to the right and  relative to window (Object3"
+    },
+    {
+      "id": 2889,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, counter) is the closest to the camera in frame 21 of 32?",
+      "options": [
+        "A. trash bin",
+        "B. counter"
+      ],
+      "ground_truth": "counter",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives trash bin (Object2) as to the right above from boxes of boxes"
+    },
+    {
+      "id": 276,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v2",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, window, radiator) is the closest to the camera in frame 23 of 32?",
+      "options": [
+        "A. trash bin",
+        "B. window",
+        "C. radiator"
+      ],
+      "ground_truth": "radiator",
+      "mc_answer": "C",
+      "prediction": "The observer now perceives trash bin (Object2) as to the right and  relative to radiator (Object3). It might seem farther. The trash"
+    },
+    {
+      "id": 2746,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, desk) is the closest to the camera in frame 8 of 32?",
+      "options": [
+        "A. trash bin",
+        "B. desk"
+      ],
+      "ground_truth": "desk",
+      "mc_answer": "B",
+      "prediction": "The distance from the center of desk (Object3) to the right and 2."
+    },
+    {
+      "id": 4848,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 9 of 30, relative to backpack, is desk to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "The observer now to-ex calendar is 1.2 meters."
+    },
+    {
+      "id": 355,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v2",
+      "question": "Measuring from the closest point of each object, which of these objects (window, monitor, backpack) is the closest to the camera in frame 29 of 32?",
+      "options": [
+        "A. window",
+        "B. monitor",
+        "C. backpack"
+      ],
+      "ground_truth": "backpack",
+      "mc_answer": "C",
+      "prediction": "The observer now perceives monitor (Object2) as to the right and  relative to backpack (Object2). It might seem closer. The monitor ("
+    },
+    {
+      "id": 941,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 4 and frame 31 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Left and Forward.",
+      "options": [
+        "A. Left",
+        "B. Forward"
+      ],
+      "ground_truth": "Forward",
+      "mc_answer": "B",
+      "prediction": "From the observer\u2019s perspective, headboard (Object2) is positioned to the right and 1."
+    },
+    {
+      "id": 352,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v2",
+      "question": "Measuring from the closest point of each object, which of these objects (monitor, desk, window) is the closest to the camera in frame 13 of 32?",
+      "options": [
+        "A. monitor",
+        "B. desk",
+        "C. window"
+      ],
+      "ground_truth": "desk",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives file (Object2) as to the right and  window (Object3). It might appear farther. The file binders ("
+    },
+    {
+      "id": 5537,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 10 and frame 16 of 32?",
+      "options": null,
+      "ground_truth": "2.5",
+      "mc_answer": null,
+      "prediction": "The observer now to photo (red point) is 3.0 meters."
+    },
+    {
+      "id": 929,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 3 and frame 21 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Right and Left.",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives measurement of frame (Object2) as to the right and  relative to frame of frame of frame (Object2). It might"
+    },
+    {
+      "id": 4284,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 12 and frame 32 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Right, Forward, Left, and Backward.",
+      "options": [
+        "A. Right",
+        "B. Forward",
+        "C. Left",
+        "D. Backward"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "The fresh perspective from frame (Object0) exposes oriented toward frame (Object2) is at the new observer"
+    },
+    {
+      "id": 2683,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (backpack, table) is the closest to the camera in frame 15 of 32?",
+      "options": [
+        "A. backpack",
+        "B. table"
+      ],
+      "ground_truth": "table",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives table (Object2) as to the right below from pedestalball (Object0) while looking at frame (Object1). It"
+    },
+    {
+      "id": 1847,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the plant in frame 14 of 32?",
+      "options": null,
+      "ground_truth": "0.5",
+      "mc_answer": null,
+      "prediction": "The observer now perceives sink (Object2) as to the left above from plant (Object0) is 0.9 meters."
+    },
+    {
+      "id": 6019,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 1 and frame 16 of 32?",
+      "options": null,
+      "ground_truth": "0.7",
+      "mc_answer": null,
+      "prediction": "The observer now perceives frame of frame (red point) as 1.2 meters away from depth of frame (blue point)."
+    },
+    {
+      "id": 3202,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 14 of 31, relative to the camera, is desk [Near/Far] compared to backpack?",
+      "options": [
+        "A. Near",
+        "B. Far"
+      ],
+      "ground_truth": "Far",
+      "mc_answer": "B",
+      "prediction": "The observer now to foos (Object1) is 2.3 meters away from the front of backpack (Object2). It might appear to the"
+    },
+    {
+      "id": 2943,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (window, table) is the closest to the camera in frame 31 of 32?",
+      "options": [
+        "A. window",
+        "B. table"
+      ],
+      "ground_truth": "window",
+      "mc_answer": "A",
+      "prediction": "The observer now to photograph of table (blue point) is 2.5 meters."
+    },
+    {
+      "id": 2125,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (tv, table) is the closest to the camera in frame 30 of 32?",
+      "options": [
+        "A. tv",
+        "B. table"
+      ],
+      "ground_truth": "tv",
+      "mc_answer": "A",
+      "prediction": "table (Object2)"
+    },
+    {
+      "id": 1599,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the table in frame 32 of 32?",
+      "options": null,
+      "ground_truth": "1.5",
+      "mc_answer": null,
+      "prediction": "The object table (red point) is 2.3 meters from the front of table and table (blue point) while table (Object2). It"
+    },
+    {
+      "id": 3170,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 3 of 32, relative to the camera, is trash bin [Near/Far] compared to table?",
+      "options": [
+        "A. Near",
+        "B. Far"
+      ],
+      "ground_truth": "Far",
+      "mc_answer": "B",
+      "prediction": "table, the observer perceives trash bin to be to the right below. It also seems to the front."
+    },
+    {
+      "id": 3234,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 29 of 32, relative to the camera, is window [Near/Far] compared to mirror?",
+      "options": [
+        "A. Near",
+        "B. Far"
+      ],
+      "ground_truth": "Far",
+      "mc_answer": "B",
+      "prediction": "The observer now to face window (Object2) is 2.3 meters away."
+    },
+    {
+      "id": 2065,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the trash bin in frame 9 of 32?",
+      "options": null,
+      "ground_truth": "0.8",
+      "mc_answer": null,
+      "prediction": "The distance from the observer to trash bin (red point) is 1.0 meters."
+    },
+    {
+      "id": 1615,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the trash bin in frame 31 of 32?",
+      "options": null,
+      "ground_truth": "1.5",
+      "mc_answer": null,
+      "prediction": "The distance from the observer to trash bin (red point) is 1.1 meters."
+    },
+    {
+      "id": 3295,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 23 of 32, relative to the camera, is fan [Near/Far] compared to trash bin?",
+      "options": [
+        "A. Near",
+        "B. Far"
+      ],
+      "ground_truth": "Near",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives washing machines (Object2) as to the right below from fan (Object0) while looking at frames of 3.0"
+    },
+    {
+      "id": 1821,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the nightstand in frame 25 of 32?",
+      "options": null,
+      "ground_truth": "1.6",
+      "mc_answer": null,
+      "prediction": "The object farthest to nightstand is nightstand (blue point) is 2.3 meters."
+    },
+    {
+      "id": 518,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v2",
+      "question": "Measuring from the closest point of each object, which of these objects (table, backpack, window) is the closest to the camera in frame 8 of 32?",
+      "options": [
+        "A. table",
+        "B. backpack",
+        "C. window"
+      ],
+      "ground_truth": "backpack",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives table (Object2) as to the right and  window (Object2). It might appear closer. The table (Object2"
+    },
+    {
+      "id": 2302,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (desk, computer mouse) is the closest to the camera in frame 24 of 32?",
+      "options": [
+        "A. desk",
+        "B. computer mouse"
+      ],
+      "ground_truth": "desk",
+      "mc_answer": "A",
+      "prediction": "From the observer's redefined view at camera, the observer finds computer mouse pad (Object2) to the left and  relative to computer tower (Object"
+    },
+    {
+      "id": 5839,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 3 and frame 15 of 32?",
+      "options": null,
+      "ground_truth": "1.6",
+      "mc_answer": null,
+      "prediction": "The observer now to frame of frame (red point) is 3.0 meters."
+    },
+    {
+      "id": 5052,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 10 of 32, relative to fan, is monitor to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives monitor (Object2) as to the right below from fan (Object0) while a to fan (Object1). It is"
+    },
+    {
+      "id": 2655,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (monitor, desk) is the closest to the camera in frame 9 of 32?",
+      "options": [
+        "A. monitor",
+        "B. desk"
+      ],
+      "ground_truth": "desk",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives desk (Object2) as to the right below from photo frame of desk (blue point of desk (Object0). It might"
+    },
+    {
+      "id": 5631,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 3 and frame 32 of 32?",
+      "options": null,
+      "ground_truth": "0.5",
+      "mc_answer": null,
+      "prediction": "The observer now to frame (red point) is 1.3 meters."
+    },
+    {
+      "id": 1670,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the desk in frame 4 of 32?",
+      "options": null,
+      "ground_truth": "2.8",
+      "mc_answer": null,
+      "prediction": "The observer now perceives photo (Object2) as to the right below from desk (Object0) while 2.3 meters."
+    },
+    {
+      "id": 4545,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v1",
+      "question": "Measuring from the closest point of each object, which of these objects (backpack, telephone, desk, mirror) is the closest to the camera in frame 14 of 32?",
+      "options": [
+        "A. backpack",
+        "B. telephone",
+        "C. desk",
+        "D. mirror"
+      ],
+      "ground_truth": "backpack",
+      "mc_answer": "A",
+      "prediction": "From the observer\u2019s new standpoint at covered (Object0), with vision locked on these position of 101), case (Object2) is found"
+    },
+    {
+      "id": 895,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 5 and frame 20 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Left, Forward, and Right.",
+      "options": [
+        "A. Left",
+        "B. Forward",
+        "C. Right"
+      ],
+      "ground_truth": "Forward",
+      "mc_answer": "B",
+      "prediction": "The fresh perspective from frame (Object2) exposes mirror (Object2) as to the right and below frame (Object3). It might appear closer."
+    },
+    {
+      "id": 4065,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 24 of 32, relative to radiator, is window to the [Up/Down]?",
+      "options": [
+        "A. Up",
+        "B. Down"
+      ],
+      "ground_truth": "Up",
+      "mc_answer": "A",
+      "prediction": "window (Object2) is identified as the farthest to scale, with a distance of 1.6 meters."
+    },
+    {
+      "id": 3779,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 5 of 32, relative to trash bin, is monitor to the [Up/Down]?",
+      "options": [
+        "A. Down",
+        "B. Up"
+      ],
+      "ground_truth": "Up",
+      "mc_answer": "B",
+      "prediction": "The observer now to face monitor (Object2) is 3.0 meters."
+    },
+    {
+      "id": 2351,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (counter, microwave) is the closest to the camera in frame 10 of 32?",
+      "options": [
+        "A. counter",
+        "B. microwave"
+      ],
+      "ground_truth": "counter",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives mugs (Object2) as to the right above. It might also seem to the front."
+    },
+    {
+      "id": 2323,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, fan) is the closest to the camera in frame 5 of 32?",
+      "options": [
+        "A. trash bin",
+        "B. fan"
+      ],
+      "ground_truth": "trash bin",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives trash bin (Object2) as to the right above from v It might seem to the behind."
+    },
+    {
+      "id": 5163,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 16 of 17, relative to window, is monitor to the [Left/Right]?",
+      "options": [
+        "A. Left",
+        "B. Right"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "A",
+      "prediction": "The observer now to photo frame (green point) is 1.2 meters away from the blue point of window"
+    },
+    {
+      "id": 3104,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (plant, table) is the closest to the camera in frame 1 of 32?",
+      "options": [
+        "A. plant",
+        "B. table"
+      ],
+      "ground_truth": "plant",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives table (Object2) as to the right below from pillar (Object0) while 2."
+    },
+    {
+      "id": 5256,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 5 and frame 18 of 32?",
+      "options": null,
+      "ground_truth": "3.3",
+      "mc_answer": null,
+      "prediction": "In the new orientation, frame (Object2) is separated from frame 1."
+    },
+    {
+      "id": 3408,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 25 of 32, relative to the camera, is mirror [Near/Far] compared to table?",
+      "options": [
+        "A. Far",
+        "B. Near"
+      ],
+      "ground_truth": "Near",
+      "mc_answer": "B",
+      "prediction": "mirror (Object2) is identified as the farthest to photo."
+    },
+    {
+      "id": 3167,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 27 of 32, relative to the camera, is table [Near/Far] compared to tv?",
+      "options": [
+        "A. Far",
+        "B. Near"
+      ],
+      "ground_truth": "Near",
+      "mc_answer": "B",
+      "prediction": "table (Object2) is identified as the closest to office chair, with a distance of 1.3 meters."
+    },
+    {
+      "id": 4186,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 11 of 32, relative to radiator, is computer mouse to the [Up/Down]?",
+      "options": [
+        "A. Down",
+        "B. Up"
+      ],
+      "ground_truth": "Down",
+      "mc_answer": "A",
+      "prediction": "The observer now to the left below."
+    },
+    {
+      "id": 3013,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, bed) is the closest to the camera in frame 32 of 32?",
+      "options": [
+        "A. trash bin",
+        "B. bed"
+      ],
+      "ground_truth": "bed",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives sofa (Object2) as to the right and  relative to bed (Object2). It might seem closer. The sofa ("
+    },
+    {
+      "id": 4868,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 21 of 32, relative to mirror, is table to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "table (red point) is positioned at 3.2 meters from wlover, making it the closest object."
+    },
+    {
+      "id": 1570,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the window in frame 17 of 32?",
+      "options": null,
+      "ground_truth": "2.4",
+      "mc_answer": null,
+      "prediction": "From the observer's redefined view, the distance is positioned to the right below. It might also be described as to the front."
+    },
+    {
+      "id": 4706,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 6 of 32, relative to backpack, is telephone to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "B",
+      "prediction": "In the observer's new orientation, with frame (Object0)  and backpack (Object1),Com is now 2.7 meters. The backpack"
+    },
+    {
+      "id": 965,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 16 and frame 30 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Backward and Forward.",
+      "options": [
+        "A. Backward",
+        "B. Forward"
+      ],
+      "ground_truth": "Forward",
+      "mc_answer": "B",
+      "prediction": "The observer now to face hood (Object2) (Object19) is 1.2 meters away."
+    },
+    {
+      "id": 3970,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 22 of 32, relative to tv, is table to the [Up/Down]?",
+      "options": [
+        "A. Up",
+        "B. Down"
+      ],
+      "ground_truth": "Down",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives table (Object2) as to the right below from picture (Object0) while looking at tv (Object1). It is"
+    },
+    {
+      "id": 4956,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 3 of 32, relative to bed, is desk to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives desk (Object2) as to the right below from bed (Object0) while 2.2 meters. The desk ("
+    },
+    {
+      "id": 324,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v2",
+      "question": "Measuring from the closest point of each object, which of these objects (bed, nightstand, window) is the closest to the camera in frame 4 of 32?",
+      "options": [
+        "A. bed",
+        "B. nightstand",
+        "C. window"
+      ],
+      "ground_truth": "bed",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives nightstand (Object2) as to the right and  window (Object2). It might appear closer. The nightstand ("
+    },
+    {
+      "id": 5785,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 6 and frame 30 of 32?",
+      "options": null,
+      "ground_truth": "2.3",
+      "mc_answer": null,
+      "prediction": "The observer now to the right below."
+    },
+    {
+      "id": 1359,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the trash bin in frame 28 of 32?",
+      "options": null,
+      "ground_truth": "5.0",
+      "mc_answer": null,
+      "prediction": "The distance of the center of trash bin is measured at 3.0 meters."
+    },
+    {
+      "id": 1464,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the plant in frame 19 of 32?",
+      "options": null,
+      "ground_truth": "1.8",
+      "mc_answer": null,
+      "prediction": "The distance between these two points, camera (red) and plant (blue), is 2.0 meters."
+    },
+    {
+      "id": 983,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 28 and frame 32 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Forward and Left.",
+      "options": [
+        "A. Forward",
+        "B. Left"
+      ],
+      "ground_truth": "Forward",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives frame of frame (Object0) as to the right and 4."
+    },
+    {
+      "id": 1653,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the window in frame 20 of 32?",
+      "options": null,
+      "ground_truth": "1.4",
+      "mc_answer": null,
+      "prediction": "The observer now perceives shower floor (Object, according to the right below."
+    },
+    {
+      "id": 5763,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 9 and frame 15 of 32?",
+      "options": null,
+      "ground_truth": "1.9",
+      "mc_answer": null,
+      "prediction": "The observer now perceives sofa chair (Object2) as to the right and 4."
+    },
+    {
+      "id": 3716,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 23 of 31, relative to radiator, is tv to the [Up/Down]?",
+      "options": [
+        "A. Down",
+        "B. Up"
+      ],
+      "ground_truth": "Up",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives tv (Object2) as to the right below from photo (Object0) while 2."
+    },
+    {
+      "id": 3305,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 22 of 32, relative to the camera, is fan [Near/Far] compared to trash bin?",
+      "options": [
+        "A. Far",
+        "B. Near"
+      ],
+      "ground_truth": "Near",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives washing machines (Object2) as to the right above from trash bin (Object0) while looking at washing machines (Object1"
+    },
+    {
+      "id": 5143,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 27 of 32, relative to closet, is nightstand to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives nightstand (Object2) as to the right below from closet"
+    },
+    {
+      "id": 2757,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, counter) is the closest to the camera in frame 31 of 32?",
+      "options": [
+        "A. trash bin",
+        "B. counter"
+      ],
+      "ground_truth": "counter",
+      "mc_answer": "B",
+      "prediction": "The observer now to the right below. It might also be described as to the front."
+    },
+    {
+      "id": 3203,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 14 of 31, relative to the camera, is backpack [Near/Far] compared to printer?",
+      "options": [
+        "A. Near",
+        "B. Far"
+      ],
+      "ground_truth": "Near",
+      "mc_answer": "A",
+      "prediction": "The observer now to crown angle (Object1) is 2.3 meters."
+    },
+    {
+      "id": 5895,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 15 and frame 23 of 32?",
+      "options": null,
+      "ground_truth": "1.7",
+      "mc_answer": null,
+      "prediction": "The observer now to face frame of frame (red point) goes show that frame of 1.5 meters."
+    },
+    {
+      "id": 1963,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the closet in frame 17 of 32?",
+      "options": null,
+      "ground_truth": "2.6",
+      "mc_answer": null,
+      "prediction": "The distance of the red point (center of closet) and closet frame (blue point) have a separation of 1.0 meters."
+    },
+    {
+      "id": 6024,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 8 and frame 22 of 32?",
+      "options": null,
+      "ground_truth": "1.3",
+      "mc_answer": null,
+      "prediction": "The observer now to the right below."
+    },
+    {
+      "id": 4851,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 27 of 27, relative to backpack, is desk to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives desk (Object2) as to the right below from backpack (Object0) while looking at backpack (Object1). It is"
+    },
+    {
+      "id": 1164,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 11 and frame 12 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Left and Backward.",
+      "options": [
+        "A. Left",
+        "B. Backward"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "A",
+      "prediction": "The observer now to neck-to-center) is 3.0 meters."
+    },
+    {
+      "id": 582,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v2",
+      "question": "Measuring from the closest point of each object, which of these objects (window, computer mouse, table) is the closest to the camera in frame 21 of 32?",
+      "options": [
+        "A. window",
+        "B. computer mouse",
+        "C. table"
+      ],
+      "ground_truth": "table",
+      "mc_answer": "C",
+      "prediction": "The observer now to the left and  when calculate the spatial relation places these object closer."
+    },
+    {
+      "id": 806,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 22 and frame 26 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Right, Backward, and Left.",
+      "options": [
+        "A. Right",
+        "B. Backward",
+        "C. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "From the perspective gained at frame 3, coat (Object2) is seen to the right and  next to frame (Object3). It might appear"
+    },
+    {
+      "id": 4392,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 1 and frame 10 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Backward, Forward, Right, and Left.",
+      "options": [
+        "A. Backward",
+        "B. Forward",
+        "C. Right",
+        "D. Left"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "D",
+      "prediction": "From the perspective of frame (Object0), oriented toward chair (Object1), armchair (Object2) is seen to the right and 17"
+    },
+    {
+      "id": 812,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 12 and frame 14 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Left, Right, and Forward.",
+      "options": [
+        "A. Left",
+        "B. Right",
+        "C. Forward"
+      ],
+      "ground_truth": "Forward",
+      "mc_answer": "C",
+      "prediction": "From the perspective provided, faucet (Object2) is to the right and  in relation to frame of frame (Object3). It might appear farther."
+    },
+    {
+      "id": 849,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 17 and frame 28 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Right, Backward, and Left.",
+      "options": [
+        "A. Right",
+        "B. Backward",
+        "C. Left"
+      ],
+      "ground_truth": "Backward",
+      "mc_answer": "B",
+      "prediction": "Now at frame 1.0 meters."
+    },
+    {
+      "id": 3582,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 12 of 32, relative to the camera, is table [Near/Far] compared to backpack?",
+      "options": [
+        "A. Far",
+        "B. Near"
+      ],
+      "ground_truth": "Far",
+      "mc_answer": "A",
+      "prediction": "table (Object2) is identified as the farthest to scale, with a distance of 1.3 meters."
+    },
+    {
+      "id": 1979,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the backpack in frame 9 of 32?",
+      "options": null,
+      "ground_truth": "3.2",
+      "mc_answer": null,
+      "prediction": "The distance from the center of sofa (red point) to the right and 2."
+    },
+    {
+      "id": 2945,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (table, window) is the closest to the camera in frame 2 of 32?",
+      "options": [
+        "A. table",
+        "B. window"
+      ],
+      "ground_truth": "window",
+      "mc_answer": "B",
+      "prediction": "The observer now to photograph of cabinets (Object2) is 2.3 meters."
+    },
+    {
+      "id": 1982,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the table in frame 3 of 32?",
+      "options": null,
+      "ground_truth": "2.9",
+      "mc_answer": null,
+      "prediction": "The distance of the center of sofa closet is measured at 3.2 meters."
+    },
+    {
+      "id": 1109,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 6 and frame 22 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Forward and Left.",
+      "options": [
+        "A. Forward",
+        "B. Left"
+      ],
+      "ground_truth": "Forward",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives couch (Object2) as to the right and 22277) as 27.0 meters and facing"
+    },
+    {
+      "id": 4980,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 4 of 32, relative to window, is monitor to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "B",
+      "prediction": "From the observer\u2019s perspective, monitor head(red bbox) is positioned to the right below. It might also be described as to the front."
+    },
+    {
+      "id": 5048,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 31 of 32, relative to table, is counter to the [Left/Right]?",
+      "options": [
+        "A. Left",
+        "B. Right"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "A",
+      "prediction": "The observer now to table (Yes point) is 2.5 meters away from table's new position."
+    },
+    {
+      "id": 5998,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 8 and frame 18 of 32?",
+      "options": null,
+      "ground_truth": "1.2",
+      "mc_answer": null,
+      "prediction": "The observer now to face frame (red point) is 1.0 meters."
+    },
+    {
+      "id": 5815,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 3 and frame 19 of 32?",
+      "options": null,
+      "ground_truth": "2.1",
+      "mc_answer": null,
+      "prediction": "The observer now perceives frame of frame (red point) as to the right above from frame of frame (blue point)."
+    },
+    {
+      "id": 779,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 17 and frame 24 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Backward, Forward, and Right.",
+      "options": [
+        "A. Backward",
+        "B. Forward",
+        "C. Right"
+      ],
+      "ground_truth": "Forward",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives mirror (Object2) as to the right and 1."
+    },
+    {
+      "id": 2413,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (radiator, table) is the closest to the camera in frame 27 of 32?",
+      "options": [
+        "A. radiator",
+        "B. table"
+      ],
+      "ground_truth": "table",
+      "mc_answer": "B",
+      "prediction": "table (Object3) is identified as the farthest to pedestal, with cover (Object1) is 110."
+    },
+    {
+      "id": 1227,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the microwave in frame 17 of 32?",
+      "options": null,
+      "ground_truth": "0.9",
+      "mc_answer": null,
+      "prediction": "The observer now toOfop (Object refrigerator) is 3.0 meters."
+    },
+    {
+      "id": 1699,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the window in frame 17 of 32?",
+      "options": null,
+      "ground_truth": "0.4",
+      "mc_answer": null,
+      "prediction": "The observer now to the right below."
+    },
+    {
+      "id": 996,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 6 and frame 26 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Forward and Left.",
+      "options": [
+        "A. Forward",
+        "B. Left"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "B",
+      "prediction": "The observer now to face stack of chairs (Object2) is  above the farthest object."
+    },
+    {
+      "id": 5656,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 10 and frame 32 of 32?",
+      "options": null,
+      "ground_truth": "1.8",
+      "mc_answer": null,
+      "prediction": "The observer now to face frame (red point) lies at 3.2 meters."
+    },
+    {
+      "id": 4533,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v1",
+      "question": "Measuring from the closest point of each object, which of these objects (telephone, keyboard, desk, window) is the closest to the camera in frame 24 of 32?",
+      "options": [
+        "A. telephone",
+        "B. keyboard",
+        "C. desk",
+        "D. window"
+      ],
+      "ground_truth": "window",
+      "mc_answer": "D",
+      "prediction": "From the perspective of this refocused sight on these analysis, keyboard (Object2) becomes to the right and  relative to window."
+    },
+    {
+      "id": 4380,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 1 and frame 26 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Left, Right, Forward, and Backward.",
+      "options": [
+        "A. Left",
+        "B. Right",
+        "C. Forward",
+        "D. Backward"
+      ],
+      "ground_truth": "Forward",
+      "mc_answer": "C",
+      "prediction": "The observer now to boxes of boxes (green point) is (Object2 meters."
+    },
+    {
+      "id": 5920,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 3 and frame 26 of 32?",
+      "options": null,
+      "ground_truth": "0.5",
+      "mc_answer": null,
+      "prediction": "The observer now to foos (red point) is 3.0 meters."
+    },
+    {
+      "id": 900,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 18 and frame 23 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Right, Backward, and Left.",
+      "options": [
+        "A. Right",
+        "B. Backward",
+        "C. Left"
+      ],
+      "ground_truth": "Backward",
+      "mc_answer": "B",
+      "prediction": "D"
+    },
+    {
+      "id": 1652,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the window in frame 22 of 32?",
+      "options": null,
+      "ground_truth": "0.9",
+      "mc_answer": null,
+      "prediction": "The observer now perceives shower floor (Object, according to the right below."
+    },
+    {
+      "id": 4799,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 25 of 32, relative to table, is refrigerator to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "B",
+      "prediction": "table (Object2) is identified as to the right below relative to table. It might also seem to the front."
+    },
+    {
+      "id": 4446,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 10 and frame 25 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Forward, Right, Backward, and Left.",
+      "options": [
+        "A. Forward",
+        "B. Right",
+        "C. Backward",
+        "D. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "B",
+      "prediction": "The fresh perspective from frame (Object0) exposes frame (Object2) as to the right and  frame (Object3). It might appear closer."
+    },
+    {
+      "id": 1104,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 9 and frame 21 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Backward and Left.",
+      "options": [
+        "A. Backward",
+        "B. Left"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives frame (Object2) as to the right and below before (headboard (Object3). It might appear farther. The frame"
+    },
+    {
+      "id": 2845,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, mirror) is the closest to the camera in frame 4 of 32?",
+      "options": [
+        "A. trash bin",
+        "B. mirror"
+      ],
+      "ground_truth": "trash bin",
+      "mc_answer": "A",
+      "prediction": "The observer now to the right below. It could also be described as to the front."
+    },
+    {
+      "id": 2663,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (backpack, bed) is the closest to the camera in frame 2 of 32?",
+      "options": [
+        "A. backpack",
+        "B. bed"
+      ],
+      "ground_truth": "bed",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives bed (Object2) as to the right below from camera (Object0) while bed (Object2). It is behind the"
+    },
+    {
+      "id": 3180,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 16 of 32, relative to the camera, is window [Near/Far] compared to table?",
+      "options": [
+        "A. Far",
+        "B. Near"
+      ],
+      "ground_truth": "Far",
+      "mc_answer": "A",
+      "prediction": "The observer now to face window (Object2) is 3.2 meters away."
+    },
+    {
+      "id": 56,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v2",
+      "question": "Measuring from the closest point of each object, which of these objects (window, keyboard, table) is the closest to the camera in frame 18 of 32?",
+      "options": [
+        "A. window",
+        "B. keyboard",
+        "C. table"
+      ],
+      "ground_truth": "table",
+      "mc_answer": "C",
+      "prediction": "The observer now perceives keyboard (Object2) as to the right and  table (Object3). It might appear closer. The keyboard (Object2"
+    },
+    {
+      "id": 5409,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 5 and frame 23 of 32?",
+      "options": null,
+      "ground_truth": "1.1",
+      "mc_answer": null,
+      "prediction": "The observer now to center of frame (red point) is 1.0 meters."
+    },
+    {
+      "id": 775,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 27 and frame 29 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Backward, Forward, and Right.",
+      "options": [
+        "A. Backward",
+        "B. Forward",
+        "C. Right"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "C",
+      "prediction": "Now that the observer stands at frame 190) and looks toward frame (Object1), frame of chairs (Object2) to the right and"
+    },
+    {
+      "id": 4175,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 15 of 17, relative to trash bin, is keyboard to the [Up/Down]?",
+      "options": [
+        "A. Down",
+        "B. Up"
+      ],
+      "ground_truth": "Up",
+      "mc_answer": "B",
+      "prediction": "The observer now to photo frame (green point) is 2.5 meters away from the center of trash bin"
+    },
+    {
+      "id": 3324,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 20 of 31, relative to the camera, is monitor [Near/Far] compared to window?",
+      "options": [
+        "A. Far",
+        "B. Near"
+      ],
+      "ground_truth": "Near",
+      "mc_answer": "B",
+      "prediction": "The observer now to books is monitor (Object1), located 1.2 meters away."
+    },
+    {
+      "id": 982,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 21 and frame 22 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Backward and Right.",
+      "options": [
+        "A. Backward",
+        "B. Right"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives frame of frame (Object0) as to the right and  frame (Object3). It might appear farther. The frame ("
+    },
+    {
+      "id": 877,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 4 and frame 28 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Backward, Forward, and Right.",
+      "options": [
+        "A. Backward",
+        "B. Forward",
+        "C. Right"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "C",
+      "prediction": "The observer now to elevator (Object0) and below the center of frame (Object3). It might seem farther. The frame of elevator (Object2"
+    },
+    {
+      "id": 3819,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 14 of 32, relative to keyboard, is plant to the [Up/Down]?",
+      "options": [
+        "A. Up",
+        "B. Down"
+      ],
+      "ground_truth": "Up",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives plant (Object2) as to the right below from keyboard (Object0) while 1."
+    },
+    {
+      "id": 4872,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 14 of 28, relative to window, is table to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "The observer now to window frame is table (Object2), with a distance of 1.7 meters."
+    },
+    {
+      "id": 1217,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the tv in frame 28 of 32?",
+      "options": null,
+      "ground_truth": "4.0",
+      "mc_answer": null,
+      "prediction": "The observer now perceives foos (Object2) as to the right below from tv frame (Object0) while looking at tv frame (Object1"
+    },
+    {
+      "id": 1481,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the table in frame 17 of 32?",
+      "options": null,
+      "ground_truth": "0.5",
+      "mc_answer": null,
+      "prediction": "The distance between these two points, foosball (red) and table (blue point) is 3.2 meters."
+    },
+    {
+      "id": 4254,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 23 and frame 28 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Forward, Left, Right, and Backward.",
+      "options": [
+        "A. Forward",
+        "B. Left",
+        "C. Right",
+        "D. Backward"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "C",
+      "prediction": "From the perspective of frame (Object0), oriented toward frame (Object1), broom (Object2) sits to the left and  the center of"
+    },
+    {
+      "id": 2584,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (table, window) is the closest to the camera in frame 1 of 32?",
+      "options": [
+        "A. table",
+        "B. window"
+      ],
+      "ground_truth": "window",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives table (Object2) as to the right below from frame of window (Object0) while window (Object2). It is"
+    },
+    {
+      "id": 1896,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the desk in frame 12 of 32?",
+      "options": null,
+      "ground_truth": "0.7",
+      "mc_answer": null,
+      "prediction": "The distance between these two points, office chair (red) and desk (blue point) is 3.0 meters."
+    },
+    {
+      "id": 2098,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the trash bin in frame 24 of 32?",
+      "options": null,
+      "ground_truth": "1.6",
+      "mc_answer": null,
+      "prediction": "The distance of the red point (center of trash bin) and the blue point of trash bin (blue point) and trash bin (blue point) as"
+    },
+    {
+      "id": 4726,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 9 of 30, relative to bed, is trash bin to the [Left/Right]?",
+      "options": [
+        "A. Left",
+        "B. Right"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "B",
+      "prediction": "From the observer\u2019s perspective, bed (Object2) is positioned to the right . It is also perceived as to the front."
+    },
+    {
+      "id": 3676,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 24 of 31, relative to the camera, is backpack [Near/Far] compared to monitor?",
+      "options": [
+        "A. Far",
+        "B. Near"
+      ],
+      "ground_truth": "Far",
+      "mc_answer": "A",
+      "prediction": "backpack (Object1) is identified as the farthest to backpack, with a distance of 1.0 meters."
+    },
+    {
+      "id": 5943,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 19 and frame 31 of 32?",
+      "options": null,
+      "ground_truth": "3.6",
+      "mc_answer": null,
+      "prediction": "The object frame (red point) is situated around 3.0 meters away from the blue point (frame)."
+    },
+    {
+      "id": 4587,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v1",
+      "question": "Measuring from the closest point of each object, which of these objects (table, desk, window, clock) is the closest to the camera in frame 18 of 32?",
+      "options": [
+        "A. table",
+        "B. desk",
+        "C. window",
+        "D. clock"
+      ],
+      "ground_truth": "clock",
+      "mc_answer": "D",
+      "prediction": "The observer now perceives desk (Object2) as to the right and  relative to window (Object3). It might seem closer. The desk ("
+    },
+    {
+      "id": 3061,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (nightstand, closet) is the closest to the camera in frame 12 of 32?",
+      "options": [
+        "A. nightstand",
+        "B. closet"
+      ],
+      "ground_truth": "nightstand",
+      "mc_answer": "A",
+      "prediction": "The observer now to pillows is nightstand (Object1), located in front of the new observer."
+    },
+    {
+      "id": 285,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v2",
+      "question": "Measuring from the closest point of each object, which of these objects (desk, telephone, plant) is the closest to the camera in frame 13 of 32?",
+      "options": [
+        "A. desk",
+        "B. telephone",
+        "C. plant"
+      ],
+      "ground_truth": "desk",
+      "mc_answer": "A",
+      "prediction": "From the perspective of this refocused the farthest object to desktop (Object1), books (Object2) is seen to the right below. It might"
+    },
+    {
+      "id": 889,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 13 and frame 25 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Left, Forward, and Backward.",
+      "options": [
+        "A. Left",
+        "B. Forward",
+        "C. Backward"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "A",
+      "prediction": "D"
+    },
+    {
+      "id": 2006,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the backpack in frame 22 of 32?",
+      "options": null,
+      "ground_truth": "3.8",
+      "mc_answer": null,
+      "prediction": "The object backpack (red point) is situated around 3.0 meters away from the blue point (backpack)."
+    },
+    {
+      "id": 3464,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 3 of 32, relative to the camera, is window [Near/Far] compared to tv?",
+      "options": [
+        "A. Near",
+        "B. Far"
+      ],
+      "ground_truth": "Far",
+      "mc_answer": "B",
+      "prediction": "The observer now to wardrobe is window (Object2), above the distance is 3.0 meters."
+    },
+    {
+      "id": 4942,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 14 of 32, relative to backpack, is table to the [Left/Right]?",
+      "options": [
+        "A. Left",
+        "B. Right"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "B",
+      "prediction": "table (Object2) is identified as the closest to file cabinet, with a distance of 3.0 meters."
+    },
+    {
+      "id": 3471,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 22 of 32, relative to the camera, is trash bin [Near/Far] compared to window?",
+      "options": [
+        "A. Far",
+        "B. Near"
+      ],
+      "ground_truth": "Far",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives shower (Object2) as to the right below from trash bin (Object2."
+    },
+    {
+      "id": 4962,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 29 of 32, relative to desk, is bed to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives bed section as to the right below from bed (Object0) is 2.0 meters."
+    },
+    {
+      "id": 5773,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 6 and frame 25 of 32?",
+      "options": null,
+      "ground_truth": "2.4",
+      "mc_answer": null,
+      "prediction": "The observer now to frame (blue point) is 2.1 meters."
+    },
+    {
+      "id": 4819,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 14 of 32, relative to trash bin, is backpack to the [Left/Right]?",
+      "options": [
+        "A. Left",
+        "B. Right"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "B",
+      "prediction": "backpack, the observer perceives backpack to be to the left below. It might also be described as to the front."
+    },
+    {
+      "id": 3789,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 5 of 31, relative to backpack, is window to the [Up/Down]?",
+      "options": [
+        "A. Up",
+        "B. Down"
+      ],
+      "ground_truth": "Up",
+      "mc_answer": "A",
+      "prediction": "The observer now to foos (Object1) is 3.0 meters."
+    },
+    {
+      "id": 5027,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 27 of 32, relative to mirror, is plant to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "B",
+      "prediction": "The observer now to sink (Object0) is 2.5 meters away from the front."
+    },
+    {
+      "id": 4165,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 30 of 31, relative to monitor, is backpack to the [Up/Down]?",
+      "options": [
+        "A. Down",
+        "B. Up"
+      ],
+      "ground_truth": "Down",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives backpack (Object2) as to the right above from monitor (Object0) while looking at monitor (Object1). It is"
+    },
+    {
+      "id": 135,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v2",
+      "question": "Measuring from the closest point of each object, which of these objects (bed, window, desk) is the closest to the camera in frame 7 of 32?",
+      "options": [
+        "A. bed",
+        "B. window",
+        "C. desk"
+      ],
+      "ground_truth": "desk",
+      "mc_answer": "C",
+      "prediction": "The observer now perceives bed"
+    },
+    {
+      "id": 1853,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the window in frame 17 of 32?",
+      "options": null,
+      "ground_truth": "4.2",
+      "mc_answer": null,
+      "prediction": "The observer now to the right below."
+    },
+    {
+      "id": 102,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v2",
+      "question": "Measuring from the closest point of each object, which of these objects (plant, monitor, desk) is the closest to the camera in frame 21 of 32?",
+      "options": [
+        "A. plant",
+        "B. monitor",
+        "C. desk"
+      ],
+      "ground_truth": "desk",
+      "mc_answer": "C",
+      "prediction": "The observer now perceives monitor (Object2) as to the right and  desk (Object3). It might appear closer. The monitor (Object2"
+    },
+    {
+      "id": 3518,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 11 of 32, relative to the camera, is monitor [Near/Far] compared to backpack?",
+      "options": [
+        "A. Far",
+        "B. Near"
+      ],
+      "ground_truth": "Far",
+      "mc_answer": "A",
+      "prediction": "monitor (Object2) is identified as to the right below relative to backpack patches."
+    },
+    {
+      "id": 4969,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 8 of 31, relative to trash bin, is bed to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives bed (Object2) as to the right below from trash bin"
+    },
+    {
+      "id": 2881,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, bed) is the closest to the camera in frame 9 of 32?",
+      "options": [
+        "A. trash bin",
+        "B. bed"
+      ],
+      "ground_truth": "bed",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives wardrobe closet (Object2) as to the right and  relative to bed (Object2). It might seem closer. The wardrobe"
+    },
+    {
+      "id": 5546,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 21 and frame 31 of 32?",
+      "options": null,
+      "ground_truth": "2.2",
+      "mc_answer": null,
+      "prediction": "The observer now perceives frame (Object2.1 meters from frame (red point) is also be seen as to the front."
+    },
+    {
+      "id": 3418,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 1 of 32, relative to the camera, is plant [Near/Far] compared to backpack?",
+      "options": [
+        "A. Near",
+        "B. Far"
+      ],
+      "ground_truth": "Near",
+      "mc_answer": "A",
+      "prediction": "From the observer's redefined view, with backpack (Object0)"
+    },
+    {
+      "id": 2610,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (nightstand, window) is the closest to the camera in frame 13 of 32?",
+      "options": [
+        "A. nightstand",
+        "B. window"
+      ],
+      "ground_truth": "window",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives photo (Object2) as to the right above from camera (Object0) while looking at stuffed animal (Object1). It"
+    },
+    {
+      "id": 2166,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (window, table) is the closest to the camera in frame 21 of 32?",
+      "options": [
+        "A. window",
+        "B. table"
+      ],
+      "ground_truth": "table",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives table (Object2) as to the right below from office chair (Object0) while looking at office chair (Object1)."
+    },
+    {
+      "id": 1257,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the table in frame 26 of 32?",
+      "options": null,
+      "ground_truth": "1.8",
+      "mc_answer": null,
+      "prediction": "The distance from the center of sofa chair (red point) to the right and 3.6 meters."
+    },
+    {
+      "id": 2658,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (window, keyboard) is the closest to the camera in frame 8 of 32?",
+      "options": [
+        "A. window",
+        "B. keyboard"
+      ],
+      "ground_truth": "keyboard",
+      "mc_answer": "B",
+      "prediction": "In the observer's image, keyboard (Object2) is positioned to the right below. It is also perceived as to the front."
+    },
+    {
+      "id": 792,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 4 and frame 21 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Forward, Right, and Left.",
+      "options": [
+        "A. Forward",
+        "B. Right",
+        "C. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "B",
+      "prediction": "From the perspective at frame 2D center, the observer perceives wardrobe (Object2) to the left and below relative to frame (Object3)."
+    },
+    {
+      "id": 1243,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the trash bin in frame 17 of 32?",
+      "options": null,
+      "ground_truth": "1.1",
+      "mc_answer": null,
+      "prediction": "The distance of the center of trash bin is 3.0 meters."
+    },
+    {
+      "id": 1384,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the printer in frame 8 of 32?",
+      "options": null,
+      "ground_truth": "0.8",
+      "mc_answer": null,
+      "prediction": "The distance from the center of boxes of photocopy posters (red point) is 2.5 meters."
+    },
+    {
+      "id": 4756,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 30 of 30, relative to window, is oven to the [Left/Right]?",
+      "options": [
+        "A. Left",
+        "B. Right"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "A",
+      "prediction": "The observer now to face window (Object, but window, is 2.7 meters."
+    },
+    {
+      "id": 722,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 9 and frame 21 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Backward, Left, and Right.",
+      "options": [
+        "A. Backward",
+        "B. Left",
+        "C. Right"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "C",
+      "prediction": "From the perspective of frame (Object0), oriented toward frame (Object1), stack of chairs (Object2) to the left and  relative to frame"
+    },
+    {
+      "id": 1122,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 12 and frame 14 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Right and Backward.",
+      "options": [
+        "A. Right",
+        "B. Backward"
+      ],
+      "ground_truth": "Backward",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives frame of chairs (Object2) as to the right and  relative to frame (Object3). It might seem closer. The"
+    },
+    {
+      "id": 2228,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (table, backpack) is the closest to the camera in frame 5 of 32?",
+      "options": [
+        "A. table",
+        "B. backpack"
+      ],
+      "ground_truth": "table",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives photo (Object2) as to the right below from photo frame (Object0) while looking at photograph (Object1). It"
+    },
+    {
+      "id": 1284,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the table in frame 22 of 32?",
+      "options": null,
+      "ground_truth": "1.3",
+      "mc_answer": null,
+      "prediction": "The distance of the center of camera is 2.7 meters."
+    },
+    {
+      "id": 2821,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (backpack, nightstand) is the closest to the camera in frame 29 of 32?",
+      "options": [
+        "A. backpack",
+        "B. nightstand"
+      ],
+      "ground_truth": "nightstand",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives shower (Object2) as to the right below from remove (Object0) while looking at bathroom vanity (Object1). It"
+    },
+    {
+      "id": 3951,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 13 of 32, relative to backpack, is mirror to the [Up/Down]?",
+      "options": [
+        "A. Up",
+        "B. Down"
+      ],
+      "ground_truth": "Up",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives mug (Object2) as to the right below from backpack (Object0) while 1.6 meters away."
+    },
+    {
+      "id": 5030,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 21 of 32, relative to refrigerator, is window to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "The observer now to face refrigerator (Object2.5 meters away from the center of window (Object0), facing refrigerator (Object1), behind and above"
+    },
+    {
+      "id": 5767,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 10 and frame 19 of 32?",
+      "options": null,
+      "ground_truth": "5.6",
+      "mc_answer": null,
+      "prediction": "The observer now perceives frame (Object2) as to the left and 4.9 meters."
+    },
+    {
+      "id": 4161,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 19 of 32, relative to window, is closet to the [Up/Down]?",
+      "options": [
+        "A. Down",
+        "B. Up"
+      ],
+      "ground_truth": "Down",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives photo of photo (red point) as to the right below from picture."
+    },
+    {
+      "id": 428,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v2",
+      "question": "Measuring from the closest point of each object, which of these objects (trash bin, desk, bed) is the closest to the camera in frame 9 of 32?",
+      "options": [
+        "A. trash bin",
+        "B. desk",
+        "C. bed"
+      ],
+      "ground_truth": "bed",
+      "mc_answer": "C",
+      "prediction": "The observer now perceives wardrobe closet (Object2) as to the right and  relative to bed (Object2). It might seem closer. The wardrobe"
+    },
+    {
+      "id": 866,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 21 and frame 26 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Left, Forward, and Right.",
+      "options": [
+        "A. Left",
+        "B. Forward",
+        "C. Right"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "C",
+      "prediction": "The fresh position of body (Object2) is 3.0 meters away from the behind."
+    },
+    {
+      "id": 2988,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (plant, bed) is the closest to the camera in frame 18 of 32?",
+      "options": [
+        "A. plant",
+        "B. bed"
+      ],
+      "ground_truth": "bed",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives clothing (Object2) as to the right below from frame of bed"
+    },
+    {
+      "id": 623,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 11 and frame 14 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Left, Backward, and Forward.",
+      "options": [
+        "A. Left",
+        "B. Backward",
+        "C. Forward"
+      ],
+      "ground_truth": "Forward",
+      "mc_answer": "C",
+      "prediction": "From the observer\u2019s new standpoint at frame 0."
+    },
+    {
+      "id": 2728,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (window, desk) is the closest to the camera in frame 18 of 32?",
+      "options": [
+        "A. window",
+        "B. desk"
+      ],
+      "ground_truth": "desk",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives dresser (Object2) as to the right below from person's new observer."
+    },
+    {
+      "id": 5018,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 26 of 32, relative to trash bin, is table to the [Left/Right]?",
+      "options": [
+        "A. Left",
+        "B. Right"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "A",
+      "prediction": "The observer now to face table (Object2) is 3.0 meters away."
+    },
+    {
+      "id": 5157,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 31 of 31, relative to window, is trash bin to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "The observer now to occupy the right below in relation to window (Object3). It seems to the front."
+    },
+    {
+      "id": 5618,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 5 and frame 10 of 32?",
+      "options": null,
+      "ground_truth": "0.7",
+      "mc_answer": null,
+      "prediction": "The object frame (red point) is situated around 3.0 meters away from the blue point (head)."
+    },
+    {
+      "id": 5506,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 15 and frame 20 of 32?",
+      "options": null,
+      "ground_truth": "1.1",
+      "mc_answer": null,
+      "prediction": "The observer now to frame of frame (red point) is 1.2 meters."
+    },
+    {
+      "id": 1791,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the trash bin in frame 17 of 32?",
+      "options": null,
+      "ground_truth": "1.3",
+      "mc_answer": null,
+      "prediction": "The distance of the center of trash bin (red point) is 1.3 meters."
+    },
+    {
+      "id": 4428,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 12 and frame 15 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Right, Backward, Left, and Forward.",
+      "options": [
+        "A. Right",
+        "B. Backward",
+        "C. Left",
+        "D. Forward"
+      ],
+      "ground_truth": "Backward",
+      "mc_answer": "B",
+      "prediction": "The fresh perspective from the center of frame (Object2) exposes island (Object2) as to the right and  frame (Object1). It might"
+    },
+    {
+      "id": 4216,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 13 and frame 29 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Left, Forward, Right, and Backward.",
+      "options": [
+        "A. Left",
+        "B. Forward",
+        "C. Right",
+        "D. Backward"
+      ],
+      "ground_truth": "Left",
+      "mc_answer": "A",
+      "prediction": "From the perspective gained at frame 3, plant (Object2) sits to the right and  next to frame  relative to frame of plants (Object"
+    },
+    {
+      "id": 3848,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 14 of 32, relative to table, is window to the [Up/Down]?",
+      "options": [
+        "A. Down",
+        "B. Up"
+      ],
+      "ground_truth": "Up",
+      "mc_answer": "B",
+      "prediction": "table (Object2) is positioned 3.0 meters from window, and table (blue point)."
+    },
+    {
+      "id": 416,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v2",
+      "question": "Measuring from the closest point of each object, which of these objects (window, trash bin, table) is the closest to the camera in frame 31 of 32?",
+      "options": [
+        "A. window",
+        "B. trash bin",
+        "C. table"
+      ],
+      "ground_truth": "table",
+      "mc_answer": "C",
+      "prediction": "The observer now to office chair (Object3) is (Object3 meters."
+    },
+    {
+      "id": 4637,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 23 of 31, relative to bed, is backpack to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "The observer now to backpack is approximately 1.2 meters away from the center of bed/1."
+    },
+    {
+      "id": 2587,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (table, window) is the closest to the camera in frame 4 of 32?",
+      "options": [
+        "A. table",
+        "B. window"
+      ],
+      "ground_truth": "window",
+      "mc_answer": "B",
+      "prediction": "The observer now perceives table (Object2) as to the right below from frame of window (Object0) while window (Object2). It is"
+    },
+    {
+      "id": 5605,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 3 and frame 26 of 32?",
+      "options": null,
+      "ground_truth": "0.8",
+      "mc_answer": null,
+      "prediction": "The observer now to photo (center) is 2.7 meters."
+    },
+    {
+      "id": 4031,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 3 of 31, relative to tv, is backpack to the [Up/Down]?",
+      "options": [
+        "A. Down",
+        "B. Up"
+      ],
+      "ground_truth": "Down",
+      "mc_answer": "A",
+      "prediction": "From the observer's redefined view, with photo (Object0) ahead, backpack (Object2) is now to the right below. It might also"
+    },
+    {
+      "id": 4862,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_lr",
+      "question": "In frame 22 of 32, relative to trash bin, is tv to the [Left/Right]?",
+      "options": [
+        "A. Right",
+        "B. Left"
+      ],
+      "ground_truth": "Right",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives photo (Object2) as to the right below from trash bin"
+    },
+    {
+      "id": 5591,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 3 and frame 8 of 32?",
+      "options": null,
+      "ground_truth": "0.5",
+      "mc_answer": null,
+      "prediction": "The observer now to boxes (red point) is 3.0 meters."
+    },
+    {
+      "id": 724,
+      "benchmark": "vsti",
+      "question_type": "camera_movement_direction",
+      "question": "During the sequence between frame 8 and frame 22 of 32, what was the primary consistent direction of the camera's movement relative to its orientation at the start? The options are Backward, Left, and Right.",
+      "options": [
+        "A. Backward",
+        "B. Left",
+        "C. Right"
+      ],
+      "ground_truth": "Backward",
+      "mc_answer": "A",
+      "prediction": "From the observer\u2019s new standpoint at frame 2) facing frame 2), bear (Object2) is now to the right and  relative to frame"
+    },
+    {
+      "id": 2705,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (fan, window) is the closest to the camera in frame 17 of 32?",
+      "options": [
+        "A. fan",
+        "B. window"
+      ],
+      "ground_truth": "fan",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives window (Object2) as to the right below from radiator (Object0) while looking at office chair (Object1). It"
+    },
+    {
+      "id": 3639,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_nf",
+      "question": "In frame 12 of 32, relative to the camera, is window [Near/Far] compared to keyboard?",
+      "options": [
+        "A. Far",
+        "B. Near"
+      ],
+      "ground_truth": "Far",
+      "mc_answer": "A",
+      "prediction": "window (green point) stands 2.0 meters away from telephone, making it the farthest object."
+    },
+    {
+      "id": 3829,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 20 of 32, relative to monitor, is computer mouse to the [Up/Down]?",
+      "options": [
+        "A. Down",
+        "B. Up"
+      ],
+      "ground_truth": "Down",
+      "mc_answer": "A",
+      "prediction": "monitor (Object2) is positioned 3.0 meters from monitor, marking it as 1.3 meters away. The monitor (Object2)"
+    },
+    {
+      "id": 1531,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_abs_dist",
+      "question": "What is the approximate distance (in meters) between the camera (or the person filming) and the nearest point of the window in frame 19 of 32?",
+      "options": null,
+      "ground_truth": "3.0",
+      "mc_answer": null,
+      "prediction": "The observer now to the right below - 1.7 meters, foosball (Object3) is 3.0 meters from the front of"
+    },
+    {
+      "id": 2973,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v3",
+      "question": "Measuring from the closest point of each object, which of these objects (table, window) is the closest to the camera in frame 12 of 32?",
+      "options": [
+        "A. table",
+        "B. window"
+      ],
+      "ground_truth": "table",
+      "mc_answer": "A",
+      "prediction": "The observer now perceives window (Object2) as to the right ."
+    },
+    {
+      "id": 5652,
+      "benchmark": "vsti",
+      "question_type": "camera_displacement",
+      "question": "Approximately how far (in meters) did the camera move between frame 20 and frame 30 of 32?",
+      "options": null,
+      "ground_truth": "4.4",
+      "mc_answer": null,
+      "prediction": "The observer now to headfoot up panel (center of 2.9 meters."
+    },
+    {
+      "id": 162,
+      "benchmark": "vsti",
+      "question_type": "camera_obj_rel_dist_v2",
+      "question": "Measuring from the closest point of each object, which of these objects (table, window, telephone) is the closest to the camera in frame 3 of 32?",
+      "options": [
+        "A. table",
+        "B. window",
+        "C. telephone"
+      ],
+      "ground_truth": "table",
+      "mc_answer": "A",
+      "prediction": "The observer now to the right and  window (Object3) include) are in front of the new observer."
+    },
+    {
+      "id": 4048,
+      "benchmark": "vsti",
+      "question_type": "obj_obj_relative_pos_ud",
+      "question": "In frame 25 of 32, relative to table, is window to the [Up/Down]?",
+      "options": [
+        "A. Up",
+        "B. Down"
+      ],
+      "ground_truth": "Up",
+      "mc_answer": "A",
+      "prediction": "The observer now to foos is window (Object3), which is 3.0 meters."
+    }
+  ]
+}
