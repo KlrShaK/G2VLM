@@ -19,10 +19,16 @@ START=$(date +%s)
 #     --image-path "$REPO_DIR/examples/25_0.jpg" \
 #     --question "Your question here"
 
-python -u "$REPO_DIR/inference_chat.py" \
-    --model-path "$REPO_DIR/models/G2VLM-2B-MoT" \
-    --image-path "$REPO_DIR/examples/prs_view1.jpg" "$REPO_DIR/examples/prs_view2.jpg" \
-    --question "What movement would produce the second image from the perspective of the first?"
+if [ $# -eq 0 ]; then
+    python -u "$REPO_DIR/inference_chat.py" \
+        --model-path "$REPO_DIR/models/G2VLM-2B-MoT" \
+        --image-path "$REPO_DIR/examples/prs_view1.jpg" "$REPO_DIR/examples/prs_view2.jpg" \
+        --question "What movement would produce the second image from the perspective of the first?"
+else
+    python -u "$REPO_DIR/inference_chat.py" \
+        --model-path "$REPO_DIR/models/G2VLM-2B-MoT" \
+        "$@"
+fi
 
 END=$(date +%s)
 echo "Chat inference took $((END - START)) seconds"
